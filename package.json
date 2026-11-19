@@ -1,6 +1,6 @@
 {
     "name": "zk-ballot-hiding-cost",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "packageManager": "npm@10.9.0",
     "private": true,
     "description": "Circuits, contracts and measurement harness for 'What Does Hiding the Ballot Cost?': three zero-knowledge voting workflows on Ethereum",

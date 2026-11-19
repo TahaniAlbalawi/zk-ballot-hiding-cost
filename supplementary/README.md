@@ -1,8 +1,8 @@
 # Supplementary Tables S1–S7
 
-These tables accompany the article *What Does Hiding the Ballot Cost? Measuring and Modeling Commitment-Based Zero-Knowledge Voting on Ethereum*.
+These tables accompany the article *What Does Hiding the Ballot Cost? Information Symmetry and Trust in Zero-Knowledge Voting on Ethereum*.
 
-`analysis/make_supplementary.py` generates them from the measurements in `data/full-2026-11/` and from the circuit artifacts archived on Zenodo; nothing was typed by hand.
+`analysis/make_supplementary.py` generates them from the measurements in `data/full-2026-11/` and from the circuit artifacts archived on Zenodo; every value is copied or computed from these inputs.
 - Files are comma-separated, UTF-8, with a header row.
 - Numbers are at full precision. An empty field means "not applicable".
 - Workflows are named as in the article (Public, Publisher, Reveal). The column `workflow_id` gives the identifier used in the code and raw data.

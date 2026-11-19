@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "If you use this code or data, please cite the article and this archive."
 title: "What Does Hiding the Ballot Cost? Code, data and artifacts"
 type: software
-version: "0.3.0"
+version: "0.3.1"
 date-released: "2026-11-19"
-doi: "10.5281/zenodo.24368648"
+doi: "10.5281/zenodo.24374206"
 repository-code: "https://github.com/TahaniAlbalawi/zk-ballot-hiding-cost"
 license:
   - MIT

@@ -7,7 +7,7 @@ This repository accompanies the article *What Does Hiding the Ballot Cost? Infor
 - the scripts that turn those measurements into every table, figure and number in the article;
 - the supplementary tables (Tables S1–S7).
 
-The compiled circuits, the generated proving and verification keys and the powers-of-tau file are too large for Git. They are archived together with this repository on Zenodo: https://doi.org/10.5281/zenodo.24368648.
+The compiled circuits, the generated proving and verification keys and the powers-of-tau file are too large for Git. They are archived together with this repository on Zenodo: https://doi.org/10.5281/zenodo.24374206.
 
 > **Research prototype.** This code measures costs on a local chain. It uses a single-contributor Groth16 setup, has no formal verification, and provides neither coercion resistance nor receipt-freeness. Do not use it for real elections. All voters, credentials, votes and keys are synthetic.
 
@@ -21,11 +21,11 @@ Three voting workflows share one eligibility core: a Merkle membership proof, a 
 | Publisher | `COMMITMENT_BALLOT_HIDING` | Poseidon(vote, randomness) | openings reconciled off chain; counts published by a configured publisher |
 | Reveal | `COMMITMENT_ONCHAIN_REVEAL` | Poseidon(vote, randomness) | openings revealed and checked on chain, then finalized |
 
-Some identifiers keep names from an earlier design:
+Some identifiers contain the word "encrypted":
 - the Solidity names `EncryptedVoteCast`, `encryptedBallots` and `PRIVATE_ENCRYPTED`;
 - the script `tallyEncrypted.ts`.
 
-The stored object is always a hash commitment, never a ciphertext.
+In the commitment workflows, the stored object is a hash commitment, not a ciphertext.
 
 ## Contents
 
@@ -80,7 +80,7 @@ Download the artifacts archive and `SHA256SUMS` from the Zenodo record into the 
 
 ```bash
 grep artifacts SHA256SUMS | shasum -a 256 -c
-tar -xzf zk-ballot-hiding-cost-v0.3.0-artifacts.tar.gz
+tar -xzf zk-ballot-hiding-cost-v0.3.1-artifacts.tar.gz
 shasum -a 256 -c circuits/build/ARTIFACTS_SHA256SUMS
 python3 -I analysis/zkey_size_model.py circuits/build/configurations
 python3 -I analysis/make_supplementary.py data/full-2026-11 circuits/build/configurations supplementary
@@ -184,6 +184,7 @@ Each run directory records this environment in `environment-*.json`, together wi
 ## License
 
 - **Code:** the MIT License ([`LICENSE`](LICENSE)).
+- **Verifier contracts:** `contracts/contracts/Verifier.sol`, `contracts/contracts/VerifierPrivate.sol` and the 24 generated verifiers in the Zenodo archive come from the snarkjs template and carry its GPL-3.0 license identifier.
 - **Data:** the measurements and derived tables in `data/`, `paper/` and `supplementary/` are licensed under CC BY 4.0 ([`LICENSE-DATA`](LICENSE-DATA)).
 - **Third-party material:** the powers-of-tau file in the Zenodo archive is redistributed unchanged from its public source.
 
@@ -191,5 +192,5 @@ Each run directory records this environment in `environment-*.json`, together wi
 
 Please cite the article and this archive. [`CITATION.cff`](CITATION.cff) holds both references in machine-readable form.
 
-- Archive: https://doi.org/10.5281/zenodo.24368648
+- Archive: https://doi.org/10.5281/zenodo.24374206
 - Repository: https://github.com/TahaniAlbalawi/zk-ballot-hiding-cost

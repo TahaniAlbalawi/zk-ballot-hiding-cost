@@ -81,7 +81,7 @@ const run = (candidateOpenings: RetainedOpening[], overrides = {}) => reconcileO
     ...overrides,
 });
 
-test("S44R-CAPTURE-01 successful receipt yields one exactly event-bound opening", () => {
+test("CAPTURE-01 successful receipt yields one exactly event-bound opening", () => {
     const contract = {
         target: address,
         interface: {
@@ -117,7 +117,7 @@ test("S44R-CAPTURE-01 successful receipt yields one exactly event-bound opening"
     assert.equal(opening.captureWindow, "PRE_SECRET_RELEASE");
 });
 
-test("S44R-CAPTURE-02 failed or event-less receipts cannot yield an opening", () => {
+test("CAPTURE-02 failed or event-less receipts cannot yield an opening", () => {
     const contract = { target: address, interface: { parseLog: () => null } };
     assert.throws(() => retainedOpeningFromReceipt(contract, {
         status: 0, hash: hash("3"), blockHash: hash("5"), logs: [],
@@ -133,38 +133,38 @@ test("S44R-CAPTURE-02 failed or event-less receipts cannot yield an opening", ()
     }), /found 0/);
 });
 
-test("S44R-SIG-01 accepts the exact public workflow signal vector", () => {
+test("SIG-01 accepts the exact public workflow signal vector", () => {
     const evidence = assertPublicSignalBinding("PUBLIC_DISCLOSURE", [1, 2, 3, 0, 4, 9], {
         root: 1, nullifier: 2, electionId: 3, vote: 0, candidateCount: 4, voter: 9,
     });
     assert.equal(evidence.disposition, "MATCH");
 });
 
-test("S44R-SIG-02 accepts the exact commitment workflow signal vector", () => {
+test("SIG-02 accepts the exact commitment workflow signal vector", () => {
     assert.equal(assertPublicSignalBinding("COMMITMENT_BALLOT_HIDING", [1, 2, 3, 4, 5, 6], {
         root: 1, nullifier: 2, electionId: 3, candidateCount: 4, commitment: 5, voter: 6,
     }).disposition, "MATCH");
 });
 
-test("S44R-SIG-03 rejects a missing public signal", () => {
+test("SIG-03 rejects a missing public signal", () => {
     assert.throws(() => assertPublicSignalBinding("PUBLIC_DISCLOSURE", [1, 2, 3, 0, 4], {
         root: 1, nullifier: 2, electionId: 3, vote: 0, candidateCount: 4, voter: 9,
     }), /requires 6/);
 });
 
-test("S44R-SIG-04 rejects reordered public signals", () => {
+test("SIG-04 rejects reordered public signals", () => {
     assert.throws(() => assertPublicSignalBinding("PUBLIC_DISCLOSURE", [1, 3, 2, 0, 4, 9], {
         root: 1, nullifier: 2, electionId: 3, vote: 0, candidateCount: 4, voter: 9,
     }), /does not match/);
 });
 
-test("S44R-SIG-05 rejects a mismatched commitment signal", () => {
+test("SIG-05 rejects a mismatched commitment signal", () => {
     assert.throws(() => assertPublicSignalBinding("COMMITMENT_BALLOT_HIDING", [1, 2, 3, 4, 5, 7], {
         root: 1, nullifier: 2, electionId: 3, candidateCount: 4, commitment: 5, voter: 6,
     }), /does not match/);
 });
 
-test("S44R-REC-01 complete one-to-one reconciliation is publishable", async () => {
+test("REC-01 complete one-to-one reconciliation is publishable", async () => {
     const result = await run(openings);
     assert.equal(result.publishable, true);
     assert.deepEqual(result.counts, [1, 1]);
@@ -183,7 +183,7 @@ test("S44R-REC-01 complete one-to-one reconciliation is publishable", async () =
     });
 });
 
-test("S44R-REC-02 missing opening is incomplete rather than a zero ballot", async () => {
+test("REC-02 missing opening is incomplete rather than a zero ballot", async () => {
     const result = await run(openings.slice(0, 1));
     assert.equal(result.publishable, false);
     assert.equal(result.denominators.missingOpenings, 1);
@@ -191,7 +191,7 @@ test("S44R-REC-02 missing opening is incomplete rather than a zero ballot", asyn
     assert.throws(() => assertPublishableReconciliation(result), /incomplete/);
 });
 
-test("S44R-REC-02B a proper subset cannot be published as a complete result", async () => {
+test("REC-02B a proper subset cannot be published as a complete result", async () => {
     const result = await run([openings[1]]);
     assert.equal(result.denominators.availableOpenings, 1);
     assert.equal(result.denominators.acceptedCommitments, 2);
@@ -199,7 +199,7 @@ test("S44R-REC-02B a proper subset cannot be published as a complete result", as
     assert.equal(result.publishable, false);
 });
 
-test("S44R-REC-03 altered vote is invalid", async () => {
+test("REC-03 altered vote is invalid", async () => {
     const changed = structuredClone(openings);
     changed[0].vote = 1;
     const result = await run(changed);
@@ -207,14 +207,14 @@ test("S44R-REC-03 altered vote is invalid", async () => {
     assert.ok(result.issues.some((issue) => issue.code === "COMMITMENT_MISMATCH"));
 });
 
-test("S44R-REC-04 altered randomness is invalid", async () => {
+test("REC-04 altered randomness is invalid", async () => {
     const changed = structuredClone(openings);
     changed[0].randomness = 99;
     const result = await run(changed);
     assert.ok(result.issues.some((issue) => issue.code === "COMMITMENT_MISMATCH"));
 });
 
-test("S44R-REC-05 altered retained commitment is locally invalid", async () => {
+test("REC-05 altered retained commitment is locally invalid", async () => {
     const changed = structuredClone(openings);
     changed[0].commitment = String(BigInt(changed[0].commitment) + 1n);
     const result = await run(changed);
@@ -222,7 +222,7 @@ test("S44R-REC-05 altered retained commitment is locally invalid", async () => {
     assert.ok(result.denominators.invalidOpenings > 0);
 });
 
-test("S44R-REC-05B self-consistent opening that disagrees with accepted manifest is rejected", async () => {
+test("REC-05B self-consistent opening that disagrees with accepted manifest is rejected", async () => {
     const changedAccepted = structuredClone(accepted);
     changedAccepted[0].commitment = String(BigInt(changedAccepted[0].commitment) + 1n);
     const changedSnapshot: AcceptedCommitmentSnapshot = {
@@ -239,7 +239,7 @@ test("S44R-REC-05B self-consistent opening that disagrees with accepted manifest
     assert.equal(result.publishable, false);
 });
 
-test("S44R-REC-06 duplicate opening invalidates the matched accepted record", async () => {
+test("REC-06 duplicate opening invalidates the matched accepted record", async () => {
     const duplicate = structuredClone(openings[0]);
     const result = await run([...openings, duplicate]);
     assert.equal(result.denominators.duplicateOpenings, 2);
@@ -247,7 +247,7 @@ test("S44R-REC-06 duplicate opening invalidates the matched accepted record", as
     assert.equal(result.publishable, false);
 });
 
-test("S44R-REC-07 extra unbound but internally valid opening is excluded", async () => {
+test("REC-07 extra unbound but internally valid opening is excluded", async () => {
     const extra = structuredClone(openings[0]);
     extra.nullifier = 999;
     extra.acceptedEvent.transactionHash = hash("f");
@@ -259,7 +259,7 @@ test("S44R-REC-07 extra unbound but internally valid opening is excluded", async
     assert.equal(result.publishable, false);
 });
 
-test("S44R-REC-08 swapped event binding is rejected", async () => {
+test("REC-08 swapped event binding is rejected", async () => {
     const changed = structuredClone(openings);
     [changed[0].acceptedEvent, changed[1].acceptedEvent] = [changed[1].acceptedEvent, changed[0].acceptedEvent];
     changed[0].openingId = `${changed[0].acceptedEvent.transactionHash}:${changed[0].acceptedEvent.logIndex}`;
@@ -269,13 +269,13 @@ test("S44R-REC-08 swapped event binding is rejected", async () => {
     assert.equal(result.publishable, false);
 });
 
-test("S44R-REC-09 a local capture cannot silently become PUBLIC evidence", async () => {
+test("REC-09 a local capture cannot silently become PUBLIC evidence", async () => {
     const result = await run(openings, { evidencePartition: "PUBLIC" });
     assert.equal(result.publishable, false);
     assert.ok(result.issues.every((issue) => issue.code === "EVIDENCE_PARTITION_MISMATCH"));
 });
 
-test("S44R-REC-09B explicit POST release permits a public evidence package", async () => {
+test("REC-09B explicit POST release permits a public evidence package", async () => {
     const released = structuredClone(openings);
     for (const opening of released) {
         opening.release = {
@@ -294,7 +294,7 @@ test("S44R-REC-09B explicit POST release permits a public evidence package", asy
     assert.equal(result.evidencePartition, "PUBLIC");
 });
 
-test("S44R-REC-10 PRE and POST analytical windows remain atomic", async () => {
+test("REC-10 PRE and POST analytical windows remain atomic", async () => {
     const postCaptured = structuredClone(openings);
     postCaptured[0].captureWindow = "POST_SECRET_RELEASE";
     const result = await run(postCaptured, { evidenceWindow: "PRE_SECRET_RELEASE" });
@@ -302,13 +302,13 @@ test("S44R-REC-10 PRE and POST analytical windows remain atomic", async () => {
     assert.equal(result.evidenceWindow, "PRE_SECRET_RELEASE");
 });
 
-test("S44R-REC-11 accepted manifest tampering is rejected", async () => {
+test("REC-11 accepted manifest tampering is rejected", async () => {
     await assert.rejects(() => run(openings, {
         acceptedSnapshot: { ...acceptedSnapshot, acceptedManifestHash: hash("f") },
     }), /manifest hash does not match/);
 });
 
-test("S44R-TALLY-01 complete POST evidence maps to the exact contract tuple", async () => {
+test("TALLY-01 complete POST evidence maps to the exact contract tuple", async () => {
     const evidence = tallyEvidenceFromReconciliation(await run(openings));
     assert.equal(evidence.acceptedCommitments, 2);
     assert.equal(evidence.includedOpenings, 2);
@@ -333,7 +333,7 @@ function mockBallotBox(storedHash = hash("8"), requirePrepared = () => true) {
     };
 }
 
-test("S44R-PREIMAGE-01 available canonical preimage is persisted before broadcast", async () => {
+test("PREIMAGE-01 available canonical preimage is persisted before broadcast", async () => {
     const reconciliation = await run(openings);
     let prepared: unknown = null;
     let receiptUpdated = false;
@@ -353,7 +353,7 @@ test("S44R-PREIMAGE-01 available canonical preimage is persisted before broadcas
     assert.equal(receiptUpdated, true);
 });
 
-test("S44R-PREIMAGE-02 unavailable/incomplete preimage blocks broadcast", async () => {
+test("PREIMAGE-02 unavailable/incomplete preimage blocks broadcast", async () => {
     const incomplete = await run(openings.slice(0, 1));
     let prepared = false;
     await assert.rejects(() => submitReconciledTally(
@@ -367,7 +367,7 @@ test("S44R-PREIMAGE-02 unavailable/incomplete preimage blocks broadcast", async 
     assert.equal(prepared, false);
 });
 
-test("S44R-PREIMAGE-03 mismatched stored digest is rejected after receipt", async () => {
+test("PREIMAGE-03 mismatched stored digest is rejected after receipt", async () => {
     const reconciliation = await run(openings);
     let receiptUpdated = false;
     await assert.rejects(() => submitReconciledTally(
@@ -384,7 +384,7 @@ test("S44R-PREIMAGE-03 mismatched stored digest is rejected after receipt", asyn
     assert.equal(receiptUpdated, false);
 });
 
-test("S44R-PERSIST-01 prepared-package persistence failure prevents broadcast", async () => {
+test("PERSIST-01 prepared-package persistence failure prevents broadcast", async () => {
     const reconciliation = await run(openings);
     let broadcast = false;
     const ballotBox = mockBallotBox();
@@ -403,7 +403,7 @@ test("S44R-PERSIST-01 prepared-package persistence failure prevents broadcast", 
     assert.equal(broadcast, false);
 });
 
-test("S44R-PERSIST-02 receipt-update failure remains an explicit post-publication failure", async () => {
+test("PERSIST-02 receipt-update failure remains an explicit post-publication failure", async () => {
     const reconciliation = await run(openings);
     let prepared = false;
     await assert.rejects(() => submitReconciledTally(

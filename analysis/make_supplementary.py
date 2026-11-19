@@ -18,7 +18,7 @@ Outputs (in <output-dir>)
   TableS6_reveal_batches.csv      gas of every reveal batch
   TableS7_time_model.csv          out-of-sample proof-time predictions for the commitment circuits
 
-Standard library only. Every value is copied or computed from the inputs; nothing is typed by hand.
+Standard library only. Every value is copied or computed from the inputs.
 """
 import csv
 import json

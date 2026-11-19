@@ -13,7 +13,7 @@ analysis/paper_analysis.json, and writes:
   <output-dir>/figures/data/gas_per_ballot.dat cast and result gas per ballot (Figure 3)
   <experiment-dir>/analysis/paper_numbers.json the numbers quoted in the text
 
-Every number in these files comes from the experiment outputs; nothing is typed by hand.
+Every number in these files comes from the experiment outputs.
 Usage (from the repository root): python3 -I analysis/make_paper_tables.py <experiment-dir> <output-dir>
 <output-dir> is the manuscript directory, or paper/ in the public repository.
 """
