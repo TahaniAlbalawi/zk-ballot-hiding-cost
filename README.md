@@ -1,6 +1,6 @@
 # What does hiding the ballot cost? Code, data and artifacts
 
-This repository accompanies the article *What Does Hiding the Ballot Cost? Measuring and Modeling Commitment-Based Zero-Knowledge Voting on Ethereum*, prepared for the MDPI journal *Computers*. It contains:
+This repository accompanies the article *What Does Hiding the Ballot Cost? Information Symmetry and Trust in Zero-Knowledge Voting on Ethereum*. It contains:
 
 - the circuits, contracts and measurement harness;
 - the raw measurements of every run (342 runs, 39,168 ballots);

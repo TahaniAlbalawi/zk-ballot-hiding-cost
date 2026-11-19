@@ -22,9 +22,8 @@ keywords:
   - performance evaluation
 preferred-citation:
   type: article
-  title: "What Does Hiding the Ballot Cost? Measuring and Modeling Commitment-Based Zero-Knowledge Voting on Ethereum"
+  title: "What Does Hiding the Ballot Cost? Information Symmetry and Trust in Zero-Knowledge Voting on Ethereum"
   authors:
     - family-names: "Albalawi"
       given-names: "Tahani"
-  journal: "Computers"
   status: "in-preparation"
