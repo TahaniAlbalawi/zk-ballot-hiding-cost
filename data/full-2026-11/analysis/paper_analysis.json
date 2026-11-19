@@ -1,0 +1,5252 @@
+{
+  "population": {
+    "DEPTH-D05": {
+      "blocks": 12,
+      "runs": 36,
+      "ballots": 1152
+    },
+    "DEPTH-D08": {
+      "blocks": 12,
+      "runs": 36,
+      "ballots": 1152
+    },
+    "DEPTH-D10": {
+      "blocks": 12,
+      "runs": 36,
+      "ballots": 1152
+    },
+    "DEPTH-D12": {
+      "blocks": 12,
+      "runs": 36,
+      "ballots": 1152
+    },
+    "DEPTH-D13": {
+      "blocks": 12,
+      "runs": 36,
+      "ballots": 1152
+    },
+    "DEPTH-D16": {
+      "blocks": 12,
+      "runs": 36,
+      "ballots": 1152
+    },
+    "DEPTH-D20": {
+      "blocks": 12,
+      "runs": 36,
+      "ballots": 1152
+    },
+    "CAND-C02": {
+      "blocks": 6,
+      "runs": 18,
+      "ballots": 576
+    },
+    "CAND-C08": {
+      "blocks": 6,
+      "runs": 18,
+      "ballots": 576
+    },
+    "SCALE-B0128": {
+      "blocks": 6,
+      "runs": 18,
+      "ballots": 2304
+    },
+    "SCALE-B0512": {
+      "blocks": 6,
+      "runs": 18,
+      "ballots": 9216
+    },
+    "SCALE-B1024": {
+      "blocks": 6,
+      "runs": 18,
+      "ballots": 18432
+    }
+  },
+  "gas": {
+    "CAND-C02": {
+      "PUBLIC_DISCLOSURE": {
+        "steady_mean": 298945.86666666664,
+        "steady_min": 298887,
+        "steady_max": 298971,
+        "first_premium": 34207.13333333336,
+        "new_candidate_premium": 17097.13333333336
+      },
+      "COMMITMENT_BALLOT_HIDING": {
+        "steady_mean": 322591.93333333335,
+        "steady_min": 322541,
+        "steady_max": 322613,
+        "first_premium": 34201.06666666665,
+        "new_candidate_premium": -0.9333333333488554
+      },
+      "COMMITMENT_ONCHAIN_REVEAL": {
+        "steady_mean": 322670.4666666667,
+        "steady_min": 322619,
+        "steady_max": 322691,
+        "first_premium": 34206.533333333326,
+        "new_candidate_premium": 8.533333333325572
+      },
+      "model_mean_diff_error": {
+        "max_abs": 15.808333333290648
+      }
+    },
+    "CAND-C08": {
+      "PUBLIC_DISCLOSURE": {
+        "steady_mean": 298948.4068965517,
+        "steady_min": 298899,
+        "steady_max": 298971,
+        "first_premium": 34194.59310344828,
+        "new_candidate_premium": 17103.568713204353
+      },
+      "COMMITMENT_BALLOT_HIDING": {
+        "steady_mean": 322595.04137931037,
+        "steady_min": 322541,
+        "steady_max": 322613,
+        "first_premium": 34195.958620689635,
+        "new_candidate_premium": -7.797476871346589
+      },
+      "COMMITMENT_ONCHAIN_REVEAL": {
+        "steady_mean": 322669.4827586207,
+        "steady_min": 322619,
+        "steady_max": 322691,
+        "first_premium": 34209.517241379304,
+        "new_candidate_premium": 0.15138772077625617
+      },
+      "model_mean_diff_error": {
+        "max_abs": 21.13448275864357
+      }
+    },
+    "DEPTH-D05": {
+      "PUBLIC_DISCLOSURE": {
+        "steady_mean": 298949.25,
+        "steady_min": 298887,
+        "steady_max": 298971,
+        "first_premium": 34200.75,
+        "new_candidate_premium": 17100.75
+      },
+      "COMMITMENT_BALLOT_HIDING": {
+        "steady_mean": 322591.89285714284,
+        "steady_min": 322541,
+        "steady_max": 322613,
+        "first_premium": 34199.10714285716,
+        "new_candidate_premium": -0.22619047615444288
+      },
+      "COMMITMENT_ONCHAIN_REVEAL": {
+        "steady_mean": 322670.3214285714,
+        "steady_min": 322607,
+        "steady_max": 322691,
+        "first_premium": 34202.67857142858,
+        "new_candidate_premium": -4.988095238106325
+      },
+      "model_mean_diff_error": {
+        "max_abs": 16.232142857159488
+      }
+    },
+    "DEPTH-D08": {
+      "PUBLIC_DISCLOSURE": {
+        "steady_mean": 298948.85714285716,
+        "steady_min": 298899,
+        "steady_max": 298971,
+        "first_premium": 34207.14285714284,
+        "new_candidate_premium": 17102.809523809527
+      },
+      "COMMITMENT_BALLOT_HIDING": {
+        "steady_mean": 322593.39285714284,
+        "steady_min": 322541,
+        "steady_max": 322613,
+        "first_premium": 34195.60714285716,
+        "new_candidate_premium": -0.05952380952658132
+      },
+      "COMMITMENT_ONCHAIN_REVEAL": {
+        "steady_mean": 322671.75,
+        "steady_min": 322607,
+        "steady_max": 322691,
+        "first_premium": 34205.25,
+        "new_candidate_premium": 2.25
+      },
+      "model_mean_diff_error": {
+        "max_abs": 13.035714285681024
+      }
+    },
+    "DEPTH-D10": {
+      "PUBLIC_DISCLOSURE": {
+        "steady_mean": 298948.60714285716,
+        "steady_min": 298911,
+        "steady_max": 298971,
+        "first_premium": 34201.39285714284,
+        "new_candidate_premium": 17097.059523809527
+      },
+      "COMMITMENT_BALLOT_HIDING": {
+        "steady_mean": 322591.64285714284,
+        "steady_min": 322529,
+        "steady_max": 322613,
+        "first_premium": 34204.35714285716,
+        "new_candidate_premium": 2.6904761904734187
+      },
+      "COMMITMENT_ONCHAIN_REVEAL": {
+        "steady_mean": 322671.53571428574,
+        "steady_min": 322619,
+        "steady_max": 322691,
+        "first_premium": 34196.46428571426,
+        "new_candidate_premium": -1.8690476190531626
+      },
+      "model_mean_diff_error": {
+        "max_abs": 14.535714285681024
+      }
+    },
+    "DEPTH-D12": {
+      "PUBLIC_DISCLOSURE": {
+        "steady_mean": 298949.25,
+        "steady_min": 298899,
+        "steady_max": 298971,
+        "first_premium": 34202.75,
+        "new_candidate_premium": 17100.416666666686
+      },
+      "COMMITMENT_BALLOT_HIDING": {
+        "steady_mean": 322593.71428571426,
+        "steady_min": 322541,
+        "steady_max": 322613,
+        "first_premium": 34201.28571428574,
+        "new_candidate_premium": 0.6190476190531626
+      },
+      "COMMITMENT_ONCHAIN_REVEAL": {
+        "steady_mean": 322671.60714285716,
+        "steady_min": 322619,
+        "steady_max": 322691,
+        "first_premium": 34206.39285714284,
+        "new_candidate_premium": -2.607142857159488
+      },
+      "model_mean_diff_error": {
+        "max_abs": 18.589285714260768
+      }
+    },
+    "DEPTH-D13": {
+      "PUBLIC_DISCLOSURE": {
+        "steady_mean": 298948.75,
+        "steady_min": 298899,
+        "steady_max": 298971,
+        "first_premium": 34200.25,
+        "new_candidate_premium": 17098.916666666686
+      },
+      "COMMITMENT_BALLOT_HIDING": {
+        "steady_mean": 322591.35714285716,
+        "steady_min": 322529,
+        "steady_max": 322613,
+        "first_premium": 34203.64285714284,
+        "new_candidate_premium": 0.9761904761544429
+      },
+      "COMMITMENT_ONCHAIN_REVEAL": {
+        "steady_mean": 322669.6785714286,
+        "steady_min": 322607,
+        "steady_max": 322691,
+        "first_premium": 34198.32142857142,
+        "new_candidate_premium": 0.9880952381063253
+      },
+      "model_mean_diff_error": {
+        "max_abs": 16.267857142840512
+      }
+    },
+    "DEPTH-D16": {
+      "PUBLIC_DISCLOSURE": {
+        "steady_mean": 298949.6785714286,
+        "steady_min": 298911,
+        "steady_max": 298971,
+        "first_premium": 34198.32142857142,
+        "new_candidate_premium": 17099.654761904734
+      },
+      "COMMITMENT_BALLOT_HIDING": {
+        "steady_mean": 322591.35714285716,
+        "steady_min": 322517,
+        "steady_max": 322613,
+        "first_premium": 34200.64285714284,
+        "new_candidate_premium": 2.976190476154443
+      },
+      "COMMITMENT_ONCHAIN_REVEAL": {
+        "steady_mean": 322669.1785714286,
+        "steady_min": 322619,
+        "steady_max": 322691,
+        "first_premium": 34201.82142857142,
+        "new_candidate_premium": -4.178571428579744
+      },
+      "model_mean_diff_error": {
+        "max_abs": 15.696428571420256
+      }
+    },
+    "DEPTH-D20": {
+      "PUBLIC_DISCLOSURE": {
+        "steady_mean": 298948.96428571426,
+        "steady_min": 298899,
+        "steady_max": 298971,
+        "first_premium": 34197.03571428574,
+        "new_candidate_premium": 17097.369047619053
+      },
+      "COMMITMENT_BALLOT_HIDING": {
+        "steady_mean": 322591.78571428574,
+        "steady_min": 322529,
+        "steady_max": 322613,
+        "first_premium": 34193.21428571426,
+        "new_candidate_premium": 2.214285714260768
+      },
+      "COMMITMENT_ONCHAIN_REVEAL": {
+        "steady_mean": 322669.96428571426,
+        "steady_min": 322619,
+        "steady_max": 322691,
+        "first_premium": 34198.03571428574,
+        "new_candidate_premium": -1.9642857142607681
+      },
+      "model_mean_diff_error": {
+        "max_abs": 14.696428571478464
+      }
+    },
+    "SCALE-B0128": {
+      "PUBLIC_DISCLOSURE": {
+        "steady_mean": 298947.7419354839,
+        "steady_min": 298899,
+        "steady_max": 298971,
+        "first_premium": 34203.25806451612,
+        "new_candidate_premium": 17101.924731182808
+      },
+      "COMMITMENT_BALLOT_HIDING": {
+        "steady_mean": 322593.06451612903,
+        "steady_min": 322517,
+        "steady_max": 322613,
+        "first_premium": 34203.93548387097,
+        "new_candidate_premium": 7.93548387096962
+      },
+      "COMMITMENT_ONCHAIN_REVEAL": {
+        "steady_mean": 322670.29032258067,
+        "steady_min": 322595,
+        "steady_max": 322691,
+        "first_premium": 34202.709677419334,
+        "new_candidate_premium": 2.043010752648115
+      },
+      "model_mean_diff_error": {
+        "max_abs": 13.552419354848098
+      }
+    },
+    "SCALE-B0512": {
+      "PUBLIC_DISCLOSURE": {
+        "steady_mean": 298948.75196850393,
+        "steady_min": 298875,
+        "steady_max": 298971,
+        "first_premium": 34204.24803149607,
+        "new_candidate_premium": 17104.24803149607
+      },
+      "COMMITMENT_BALLOT_HIDING": {
+        "steady_mean": 322592.03543307085,
+        "steady_min": 322517,
+        "steady_max": 322613,
+        "first_premium": 34208.96456692915,
+        "new_candidate_premium": 1.6312335958355106
+      },
+      "COMMITMENT_ONCHAIN_REVEAL": {
+        "steady_mean": 322670.1377952756,
+        "steady_min": 322595,
+        "steady_max": 322691,
+        "first_premium": 34206.8622047244,
+        "new_candidate_premium": -2.4711286089150235
+      },
+      "model_mean_diff_error": {
+        "max_abs": 13.189714566920884
+      }
+    },
+    "SCALE-B1024": {
+      "PUBLIC_DISCLOSURE": {
+        "steady_mean": 298948.43529411766,
+        "steady_min": 298863,
+        "steady_max": 298971,
+        "first_premium": 34196.56470588234,
+        "new_candidate_premium": 17101.231372549024
+      },
+      "COMMITMENT_BALLOT_HIDING": {
+        "steady_mean": 322591.9,
+        "steady_min": 322517,
+        "steady_max": 322613,
+        "first_premium": 34193.09999999998,
+        "new_candidate_premium": 2.4333333332906477
+      },
+      "COMMITMENT_ONCHAIN_REVEAL": {
+        "steady_mean": 322669.77647058823,
+        "steady_min": 322583,
+        "steady_max": 322691,
+        "first_premium": 34205.22352941177,
+        "new_candidate_premium": 3.223529411770869
+      },
+      "model_mean_diff_error": {
+        "max_abs": 12.832169117638841
+      }
+    }
+  },
+  "time": {
+    "CAND-C02": {
+      "stalls": {
+        "COMMITMENT_ONCHAIN_REVEAL": 0,
+        "PUBLIC_DISCLOSURE": 0,
+        "COMMITMENT_BALLOT_HIDING": 0
+      },
+      "mean:Publisher-Public": {
+        "n": 6,
+        "mean": 7.424303598958346,
+        "lo": -1.8259777639012214,
+        "hi": 16.674584961817914,
+        "ratio": 1.0255558072690931
+      },
+      "mean:Reveal-Public": {
+        "n": 6,
+        "mean": 7.472305760416684,
+        "lo": 1.5522020514517445,
+        "hi": 13.392409469381622,
+        "ratio": 1.0254987584479343
+      },
+      "mean:Reveal-Publisher": {
+        "n": 6,
+        "mean": 0.04800216145833739,
+        "lo": -3.9943200984789686,
+        "hi": 4.090324421395644,
+        "ratio": 1.0002139570175483
+      },
+      "mean:Public": {
+        "mean": 297.847850046875,
+        "sd": 7.870154766621907
+      },
+      "mean:Publisher": {
+        "mean": 305.2721536458333,
+        "sd": 1.9305135101564475
+      },
+      "mean:Reveal": {
+        "mean": 305.32015580729166,
+        "sd": 2.4142061181038668
+      },
+      "median:Publisher-Public": {
+        "n": 6,
+        "mean": 11.06774658333334,
+        "lo": 10.12848988757836,
+        "hi": 12.007003279088321,
+        "ratio": 1.037808574823564
+      },
+      "median:Reveal-Public": {
+        "n": 6,
+        "mean": 10.109017333333318,
+        "lo": 8.947687228453619,
+        "hi": 11.270347438213017,
+        "ratio": 1.034538576058231
+      },
+      "median:Reveal-Publisher": {
+        "n": 6,
+        "mean": -0.9587292500000236,
+        "lo": -1.9321250704489872,
+        "hi": 0.014666570448940042,
+        "ratio": 0.9968509571800038
+      },
+      "median:Public": {
+        "mean": 292.7905104166667,
+        "sd": 1.1788410837960879
+      },
+      "median:Publisher": {
+        "mean": 303.85825700000004,
+        "sd": 0.8454731645979048
+      },
+      "median:Reveal": {
+        "mean": 302.89952775,
+        "sd": 0.46109171311093156
+      }
+    },
+    "CAND-C08": {
+      "stalls": {
+        "PUBLIC_DISCLOSURE": 0,
+        "COMMITMENT_BALLOT_HIDING": 0,
+        "COMMITMENT_ONCHAIN_REVEAL": 0
+      },
+      "mean:Publisher-Public": {
+        "n": 6,
+        "mean": 9.485710072916666,
+        "lo": 5.947301993703106,
+        "hi": 13.024118152130225,
+        "ratio": 1.0322344345357657
+      },
+      "mean:Reveal-Public": {
+        "n": 6,
+        "mean": 12.547540630208355,
+        "lo": 6.813550240816749,
+        "hi": 18.28153101959996,
+        "ratio": 1.0426428535499193
+      },
+      "mean:Reveal-Publisher": {
+        "n": 6,
+        "mean": 3.06183055729169,
+        "lo": -0.8355601548532379,
+        "hi": 6.959221269436618,
+        "ratio": 1.010062111795283
+      },
+      "mean:Public": {
+        "mean": 295.03298759375,
+        "sd": 2.6547667574067506
+      },
+      "mean:Publisher": {
+        "mean": 304.51869766666664,
+        "sd": 1.2204558453999468
+      },
+      "mean:Reveal": {
+        "mean": 307.58052822395837,
+        "sd": 3.6936702430095094
+      },
+      "median:Publisher-Public": {
+        "n": 6,
+        "mean": 11.21428499999999,
+        "lo": 10.229652798275593,
+        "hi": 12.198917201724386,
+        "ratio": 1.038394613225774
+      },
+      "median:Reveal-Public": {
+        "n": 6,
+        "mean": 12.312934249999975,
+        "lo": 10.463786832060784,
+        "hi": 14.162081667939166,
+        "ratio": 1.0421553608705485
+      },
+      "median:Reveal-Publisher": {
+        "n": 6,
+        "mean": 1.0986492499999845,
+        "lo": -0.797547273569023,
+        "hi": 2.9948457735689917,
+        "ratio": 1.003626433430218
+      },
+      "median:Public": {
+        "mean": 292.10707958333336,
+        "sd": 0.44187804216846666
+      },
+      "median:Publisher": {
+        "mean": 303.3213645833333,
+        "sd": 0.5927279291075452
+      },
+      "median:Reveal": {
+        "mean": 304.4200138333333,
+        "sd": 1.6286351342495835
+      }
+    },
+    "DEPTH-D05": {
+      "stalls": {
+        "COMMITMENT_BALLOT_HIDING": 3,
+        "PUBLIC_DISCLOSURE": 0,
+        "COMMITMENT_ONCHAIN_REVEAL": 0
+      },
+      "mean:Publisher-Public": {
+        "n": 12,
+        "mean": 43.357666976562506,
+        "lo": -8.269926859032857,
+        "hi": 94.98526081215786,
+        "ratio": 1.21660366854491
+      },
+      "mean:Reveal-Public": {
+        "n": 12,
+        "mean": 14.320286432291669,
+        "lo": 8.911058509792738,
+        "hi": 19.7295143547906,
+        "ratio": 1.0712900094982332
+      },
+      "mean:Reveal-Publisher": {
+        "n": 12,
+        "mean": -29.037380544270835,
+        "lo": -80.65389696615782,
+        "hi": 22.579135877616142,
+        "ratio": 0.9306096322833246
+      },
+      "mean:Public": {
+        "mean": 204.23532815885417,
+        "sd": 10.448861517131354
+      },
+      "mean:Publisher": {
+        "mean": 247.5929951354167,
+        "sd": 79.60576865489509
+      },
+      "mean:Reveal": {
+        "mean": 218.55561459114583,
+        "sd": 9.057965248002809
+      },
+      "median:Publisher-Public": {
+        "n": 12,
+        "mean": 19.89175166666666,
+        "lo": 15.743245230293992,
+        "hi": 24.040258103039328,
+        "ratio": 1.099169838084167
+      },
+      "median:Reveal-Public": {
+        "n": 12,
+        "mean": 15.633868,
+        "lo": 12.8480006274475,
+        "hi": 18.419735372552502,
+        "ratio": 1.0779331909215648
+      },
+      "median:Reveal-Publisher": {
+        "n": 12,
+        "mean": -4.25788366666666,
+        "lo": -8.005538920817946,
+        "hi": -0.510228412515374,
+        "ratio": 0.9812104007329354
+      },
+      "median:Public": {
+        "mean": 200.91641325,
+        "sd": 7.851004173754975
+      },
+      "median:Publisher": {
+        "mean": 220.80816491666667,
+        "sd": 10.022806718904565
+      },
+      "median:Reveal": {
+        "mean": 216.55028125,
+        "sd": 8.878503787323588
+      }
+    },
+    "DEPTH-D08": {
+      "stalls": {
+        "PUBLIC_DISCLOSURE": 1,
+        "COMMITMENT_BALLOT_HIDING": 0,
+        "COMMITMENT_ONCHAIN_REVEAL": 0
+      },
+      "mean:Publisher-Public": {
+        "n": 12,
+        "mean": 9.086291138020835,
+        "lo": 3.595874413958014,
+        "hi": 14.576707862083655,
+        "ratio": 1.0339995931026364
+      },
+      "mean:Reveal-Public": {
+        "n": 12,
+        "mean": 8.742025575520836,
+        "lo": 3.5576550089121906,
+        "hi": 13.926396142129482,
+        "ratio": 1.032698736188032
+      },
+      "mean:Reveal-Publisher": {
+        "n": 12,
+        "mean": -0.3442655624999986,
+        "lo": -3.6619691491780437,
+        "hi": 2.9734380241780465,
+        "ratio": 0.9989405495042024
+      },
+      "mean:Public": {
+        "mean": 272.70086600520835,
+        "sd": 6.94331571862646
+      },
+      "mean:Publisher": {
+        "mean": 281.78715714322914,
+        "sd": 3.316084464779916
+      },
+      "mean:Reveal": {
+        "mean": 281.44289158072917,
+        "sd": 3.082075289319146
+      },
+      "median:Publisher-Public": {
+        "n": 12,
+        "mean": 11.018591999999984,
+        "lo": 10.276730442049283,
+        "hi": 11.760453557950685,
+        "ratio": 1.041102381277712
+      },
+      "median:Reveal-Public": {
+        "n": 12,
+        "mean": 10.930895874999985,
+        "lo": 10.0725190334159,
+        "hi": 11.78927271658407,
+        "ratio": 1.0407794786519877
+      },
+      "median:Reveal-Publisher": {
+        "n": 12,
+        "mean": -0.08769612499999842,
+        "lo": -0.7434412325941431,
+        "hi": 0.5680489825941462,
+        "ratio": 0.9996932720292211
+      },
+      "median:Public": {
+        "mean": 268.16596870833337,
+        "sd": 1.1267823167998217
+      },
+      "median:Publisher": {
+        "mean": 279.1845607083333,
+        "sd": 0.758210963211586
+      },
+      "median:Reveal": {
+        "mean": 279.09686458333334,
+        "sd": 0.6184860313985562
+      }
+    },
+    "DEPTH-D10": {
+      "stalls": {
+        "COMMITMENT_ONCHAIN_REVEAL": 0,
+        "COMMITMENT_BALLOT_HIDING": 0,
+        "PUBLIC_DISCLOSURE": 1
+      },
+      "mean:Publisher-Public": {
+        "n": 12,
+        "mean": 9.192366421874993,
+        "lo": -0.4147028878628536,
+        "hi": 18.79943573161284,
+        "ratio": 1.0295897297146792
+      },
+      "mean:Reveal-Public": {
+        "n": 12,
+        "mean": 10.385607218749996,
+        "lo": -10.920333351463341,
+        "hi": 31.691547788963334,
+        "ratio": 1.0361228000251674
+      },
+      "mean:Reveal-Publisher": {
+        "n": 12,
+        "mean": 1.1932407968750027,
+        "lo": -22.583573675064937,
+        "hi": 24.970055268814942,
+        "ratio": 1.0079243635051656
+      },
+      "mean:Public": {
+        "mean": 312.323386703125,
+        "sd": 22.390769011908876
+      },
+      "mean:Publisher": {
+        "mean": 321.515753125,
+        "sd": 27.117117090450176
+      },
+      "mean:Reveal": {
+        "mean": 322.708993921875,
+        "sd": 31.533672683509774
+      },
+      "median:Publisher-Public": {
+        "n": 12,
+        "mean": 10.119626625,
+        "lo": 1.5104995981016138,
+        "hi": 18.728753651898387,
+        "ratio": 1.034351307435601
+      },
+      "median:Reveal-Public": {
+        "n": 12,
+        "mean": 15.023994708333325,
+        "lo": -2.65311790983659,
+        "hi": 32.70110732650324,
+        "ratio": 1.0508375882018166
+      },
+      "median:Reveal-Publisher": {
+        "n": 12,
+        "mean": 4.904368083333324,
+        "lo": -13.565693548133385,
+        "hi": 23.374429714800034,
+        "ratio": 1.0169323842192368
+      },
+      "median:Public": {
+        "mean": 302.836896,
+        "sd": 16.74138136481675
+      },
+      "median:Publisher": {
+        "mean": 312.956522625,
+        "sd": 16.46664377203952
+      },
+      "median:Reveal": {
+        "mean": 317.86089070833333,
+        "sd": 28.393860241213943
+      }
+    },
+    "DEPTH-D12": {
+      "stalls": {
+        "PUBLIC_DISCLOSURE": 0,
+        "COMMITMENT_BALLOT_HIDING": 0,
+        "COMMITMENT_ONCHAIN_REVEAL": 0
+      },
+      "mean:Publisher-Public": {
+        "n": 12,
+        "mean": 12.916052742187503,
+        "lo": 9.904737457916761,
+        "hi": 15.927368026458245,
+        "ratio": 1.0408740320368537
+      },
+      "mean:Reveal-Public": {
+        "n": 12,
+        "mean": 11.702247723958337,
+        "lo": 9.905679408814065,
+        "hi": 13.498816039102609,
+        "ratio": 1.0370247689545538
+      },
+      "mean:Reveal-Publisher": {
+        "n": 12,
+        "mean": -1.2138050182291664,
+        "lo": -4.187133675103725,
+        "hi": 1.7595236386453927,
+        "ratio": 0.9964515362501603
+      },
+      "mean:Public": {
+        "mean": 316.26100012239584,
+        "sd": 1.292298429987724
+      },
+      "mean:Publisher": {
+        "mean": 329.17705286458335,
+        "sd": 4.098862385796567
+      },
+      "mean:Reveal": {
+        "mean": 327.9632478463542,
+        "sd": 2.1896826338102477
+      },
+      "median:Publisher-Public": {
+        "n": 12,
+        "mean": 11.62810070833332,
+        "lo": 10.358445799102215,
+        "hi": 12.897755617564426,
+        "ratio": 1.0368815199201504
+      },
+      "median:Reveal-Public": {
+        "n": 12,
+        "mean": 11.345210124999985,
+        "lo": 10.324212501410559,
+        "hi": 12.366207748589412,
+        "ratio": 1.0359765373353602
+      },
+      "median:Reveal-Publisher": {
+        "n": 12,
+        "mean": -0.2828905833333361,
+        "lo": -1.3189093402703582,
+        "hi": 0.7531281736036859,
+        "ratio": 0.9991449141043391
+      },
+      "median:Public": {
+        "mean": 315.43841141666667,
+        "sd": 1.180387224135701
+      },
+      "median:Publisher": {
+        "mean": 327.066512125,
+        "sd": 1.237342718294899
+      },
+      "median:Reveal": {
+        "mean": 326.78362154166666,
+        "sd": 1.3742199697683928
+      }
+    },
+    "DEPTH-D13": {
+      "stalls": {
+        "COMMITMENT_ONCHAIN_REVEAL": 0,
+        "PUBLIC_DISCLOSURE": 0,
+        "COMMITMENT_BALLOT_HIDING": 0
+      },
+      "mean:Publisher-Public": {
+        "n": 12,
+        "mean": 109.83646829687498,
+        "lo": 107.64998862454163,
+        "hi": 112.02294796920833,
+        "ratio": 1.3346378158892458
+      },
+      "mean:Reveal-Public": {
+        "n": 12,
+        "mean": 109.36558339583333,
+        "lo": 106.33678279027103,
+        "hi": 112.39438400139562,
+        "ratio": 1.3332252211670377
+      },
+      "mean:Reveal-Publisher": {
+        "n": 12,
+        "mean": -0.47088490104166186,
+        "lo": -3.1402044695467137,
+        "hi": 2.1984346674633897,
+        "ratio": 0.9989533240986604
+      },
+      "mean:Public": {
+        "mean": 328.2693647109375,
+        "sd": 1.8816630711332922
+      },
+      "mean:Publisher": {
+        "mean": 438.1058330078125,
+        "sd": 2.6450776440643833
+      },
+      "mean:Reveal": {
+        "mean": 437.6349481067708,
+        "sd": 3.5677374770556134
+      },
+      "median:Publisher-Public": {
+        "n": 12,
+        "mean": 108.16148958333332,
+        "lo": 107.16720613098391,
+        "hi": 109.15577303568273,
+        "ratio": 1.331231879301621
+      },
+      "median:Reveal-Public": {
+        "n": 12,
+        "mean": 108.24103633333333,
+        "lo": 107.29333262380673,
+        "hi": 109.18874004285992,
+        "ratio": 1.331474991692056
+      },
+      "median:Reveal-Publisher": {
+        "n": 12,
+        "mean": 0.07954675000000104,
+        "lo": -1.0321464150640656,
+        "hi": 1.1912399150640678,
+        "ratio": 1.0001906774137035
+      },
+      "median:Public": {
+        "mean": 326.5578159583333,
+        "sd": 1.138947050325866
+      },
+      "median:Publisher": {
+        "mean": 434.71930554166664,
+        "sd": 1.0694680930674114
+      },
+      "median:Reveal": {
+        "mean": 434.79885229166666,
+        "sd": 1.0166181939492476
+      }
+    },
+    "DEPTH-D16": {
+      "stalls": {
+        "COMMITMENT_ONCHAIN_REVEAL": 0,
+        "PUBLIC_DISCLOSURE": 0,
+        "COMMITMENT_BALLOT_HIDING": 0
+      },
+      "mean:Publisher-Public": {
+        "n": 12,
+        "mean": 11.84063648697916,
+        "lo": 6.685942339133215,
+        "hi": 16.995330634825102,
+        "ratio": 1.0257835786717175
+      },
+      "mean:Reveal-Public": {
+        "n": 12,
+        "mean": 10.012066473958328,
+        "lo": 4.568520090925196,
+        "hi": 15.45561285699146,
+        "ratio": 1.021849729710247
+      },
+      "mean:Reveal-Publisher": {
+        "n": 12,
+        "mean": -1.8285700130208322,
+        "lo": -7.978400316781651,
+        "hi": 4.321260290739986,
+        "ratio": 0.9963363186996705
+      },
+      "mean:Public": {
+        "mean": 461.202899453125,
+        "sd": 5.253896640128145
+      },
+      "mean:Publisher": {
+        "mean": 473.04353594010416,
+        "sd": 6.5376847293927
+      },
+      "mean:Reveal": {
+        "mean": 471.2149659270833,
+        "sd": 5.975513547607747
+      },
+      "median:Publisher-Public": {
+        "n": 12,
+        "mean": 10.545578000000006,
+        "lo": 9.810418298826294,
+        "hi": 11.280737701173718,
+        "ratio": 1.0230885044033573
+      },
+      "median:Reveal-Public": {
+        "n": 12,
+        "mean": 9.979095208333334,
+        "lo": 9.02652821248443,
+        "hi": 10.931662204182237,
+        "ratio": 1.021849777751859
+      },
+      "median:Reveal-Publisher": {
+        "n": 12,
+        "mean": -0.5664827916666724,
+        "lo": -1.399596664582254,
+        "hi": 0.2666310812489092,
+        "ratio": 0.9987908989703674
+      },
+      "median:Public": {
+        "mean": 456.83694808333337,
+        "sd": 1.410811752354156
+      },
+      "median:Publisher": {
+        "mean": 467.38252608333335,
+        "sd": 1.1521601095144638
+      },
+      "median:Reveal": {
+        "mean": 466.8160432916667,
+        "sd": 1.2837584685355214
+      }
+    },
+    "DEPTH-D20": {
+      "stalls": {
+        "PUBLIC_DISCLOSURE": 0,
+        "COMMITMENT_ONCHAIN_REVEAL": 0,
+        "COMMITMENT_BALLOT_HIDING": 0
+      },
+      "mean:Publisher-Public": {
+        "n": 12,
+        "mean": 9.146839263020842,
+        "lo": 5.313798996435928,
+        "hi": 12.979879529605757,
+        "ratio": 1.0183304091931629
+      },
+      "mean:Reveal-Public": {
+        "n": 12,
+        "mean": 8.32293550520834,
+        "lo": 3.7619117430503044,
+        "hi": 12.883959267366375,
+        "ratio": 1.0167179758144789
+      },
+      "mean:Reveal-Publisher": {
+        "n": 12,
+        "mean": -0.8239037578125021,
+        "lo": -3.767272465158849,
+        "hi": 2.1194649495338447,
+        "ratio": 0.9984275441526126
+      },
+      "mean:Public": {
+        "mean": 502.6422370130208,
+        "sd": 6.764451939586586
+      },
+      "mean:Publisher": {
+        "mean": 511.78907627604167,
+        "sd": 2.9812198256239246
+      },
+      "mean:Reveal": {
+        "mean": 510.96517251822917,
+        "sd": 2.9724389622566627
+      },
+      "median:Publisher-Public": {
+        "n": 12,
+        "mean": 10.511680499999992,
+        "lo": 9.681685689876755,
+        "hi": 11.341675310123229,
+        "ratio": 1.0211139278770573
+      },
+      "median:Reveal-Public": {
+        "n": 12,
+        "mean": 10.756043374999996,
+        "lo": 8.828891879866292,
+        "hi": 12.683194870133699,
+        "ratio": 1.0216083877952866
+      },
+      "median:Reveal-Publisher": {
+        "n": 12,
+        "mean": 0.24436287500000256,
+        "lo": -1.7338557847119513,
+        "hi": 2.2225815347119564,
+        "ratio": 1.0004880562914267
+      },
+      "median:Public": {
+        "mean": 497.9541614166667,
+        "sd": 1.146869597031852
+      },
+      "median:Publisher": {
+        "mean": 508.46584191666665,
+        "sd": 0.8966665974249861
+      },
+      "median:Reveal": {
+        "mean": 508.7102047916667,
+        "sd": 2.5063975128861524
+      }
+    },
+    "SCALE-B0128": {
+      "stalls": {
+        "PUBLIC_DISCLOSURE": 0,
+        "COMMITMENT_ONCHAIN_REVEAL": 0,
+        "COMMITMENT_BALLOT_HIDING": 0
+      },
+      "mean:Publisher-Public": {
+        "n": 6,
+        "mean": 7.526853708333334,
+        "lo": -0.9994978333357434,
+        "hi": 16.053205250002414,
+        "ratio": 1.0165681398243118
+      },
+      "mean:Reveal-Public": {
+        "n": 6,
+        "mean": 7.0275645286458355,
+        "lo": -5.830989456841219,
+        "hi": 19.88611851413289,
+        "ratio": 1.0156519958225592
+      },
+      "mean:Reveal-Publisher": {
+        "n": 6,
+        "mean": -0.49928917968749903,
+        "lo": -5.338495590931692,
+        "hi": 4.3399172315566945,
+        "ratio": 0.9989835827082817
+      },
+      "mean:Public": {
+        "mean": 463.5712362669271,
+        "sd": 10.83844364887008
+      },
+      "mean:Publisher": {
+        "mean": 471.0980899752604,
+        "sd": 3.164001535704473
+      },
+      "mean:Reveal": {
+        "mean": 470.5988007955729,
+        "sd": 2.815578964923527
+      },
+      "median:Publisher-Public": {
+        "n": 6,
+        "mean": 10.221500083333334,
+        "lo": 9.57757234660087,
+        "hi": 10.865427820065797,
+        "ratio": 1.0223489373497554
+      },
+      "median:Reveal-Public": {
+        "n": 6,
+        "mean": 8.920211833333335,
+        "lo": 6.946249308214261,
+        "hi": 10.894174358452409,
+        "ratio": 1.0195149819319487
+      },
+      "median:Reveal-Publisher": {
+        "n": 6,
+        "mean": -1.301288249999999,
+        "lo": -3.3748262746476354,
+        "hi": 0.7722497746476376,
+        "ratio": 0.9972291832324347
+      },
+      "median:Public": {
+        "mean": 457.3820729166667,
+        "sd": 1.6891303712881405
+      },
+      "median:Publisher": {
+        "mean": 467.603573,
+        "sd": 1.6741496248312622
+      },
+      "median:Reveal": {
+        "mean": 466.30228475,
+        "sd": 0.5753944177568076
+      }
+    },
+    "SCALE-B0512": {
+      "stalls": {
+        "COMMITMENT_ONCHAIN_REVEAL": 0,
+        "COMMITMENT_BALLOT_HIDING": 0,
+        "PUBLIC_DISCLOSURE": 1
+      },
+      "mean:Publisher-Public": {
+        "n": 6,
+        "mean": 2.074237736002592,
+        "lo": -12.369331051646139,
+        "hi": 16.517806523651323,
+        "ratio": 1.0056773229412383
+      },
+      "mean:Reveal-Public": {
+        "n": 6,
+        "mean": 3.6594168206380098,
+        "lo": -13.97261432693376,
+        "hi": 21.29144796820978,
+        "ratio": 1.0080150223750843
+      },
+      "mean:Reveal-Publisher": {
+        "n": 6,
+        "mean": 1.5851790846354181,
+        "lo": -21.323524155605867,
+        "hi": 24.4938823248767,
+        "ratio": 1.0029087647164119
+      },
+      "mean:Public": {
+        "mean": 482.3493467877604,
+        "sd": 30.581605368189116
+      },
+      "mean:Publisher": {
+        "mean": 484.423584523763,
+        "sd": 18.24743862931501
+      },
+      "mean:Reveal": {
+        "mean": 486.00876360839845,
+        "sd": 32.09249829794049
+      },
+      "median:Publisher-Public": {
+        "n": 6,
+        "mean": 4.740405999999989,
+        "lo": -6.186779044050474,
+        "hi": 15.66759104405045,
+        "ratio": 1.010630825511093
+      },
+      "median:Reveal-Public": {
+        "n": 6,
+        "mean": 5.568204666666655,
+        "lo": -3.83160752381382,
+        "hi": 14.96801685714713,
+        "ratio": 1.011954326675564
+      },
+      "median:Reveal-Publisher": {
+        "n": 6,
+        "mean": 0.8277986666666663,
+        "lo": -12.939157984272745,
+        "hi": 14.594755317606078,
+        "ratio": 1.0016576120990401
+      },
+      "median:Public": {
+        "mean": 469.22719466666666,
+        "sd": 17.979062285591855
+      },
+      "median:Publisher": {
+        "mean": 473.96760066666667,
+        "sd": 12.292339630466493
+      },
+      "median:Reveal": {
+        "mean": 474.7953993333333,
+        "sd": 19.309229598218298
+      }
+    },
+    "SCALE-B1024": {
+      "stalls": {
+        "COMMITMENT_BALLOT_HIDING": 0,
+        "PUBLIC_DISCLOSURE": 0,
+        "COMMITMENT_ONCHAIN_REVEAL": 0
+      },
+      "mean:Publisher-Public": {
+        "n": 6,
+        "mean": 9.574577083170567,
+        "lo": 7.506347624298995,
+        "hi": 11.64280654204214,
+        "ratio": 1.0208745387160134
+      },
+      "mean:Reveal-Public": {
+        "n": 6,
+        "mean": 11.20138569010417,
+        "lo": 9.109410527429755,
+        "hi": 13.293360852778584,
+        "ratio": 1.024408428308116
+      },
+      "mean:Reveal-Publisher": {
+        "n": 6,
+        "mean": 1.6268086069336032,
+        "lo": -0.5836002501351552,
+        "hi": 3.8372174640023617,
+        "ratio": 1.00347004128972
+      },
+      "mean:Public": {
+        "mean": 459.00316683333335,
+        "sd": 1.9920351338770987
+      },
+      "mean:Publisher": {
+        "mean": 468.5777439165039,
+        "sd": 0.6280228211761069
+      },
+      "mean:Reveal": {
+        "mean": 470.2045525234375,
+        "sd": 2.399694697990372
+      },
+      "median:Publisher-Public": {
+        "n": 6,
+        "mean": 10.092538249999999,
+        "lo": 9.398542823686084,
+        "hi": 10.786533676313914,
+        "ratio": 1.022173253026539
+      },
+      "median:Reveal-Public": {
+        "n": 6,
+        "mean": 10.18570466666666,
+        "lo": 9.45455219975387,
+        "hi": 10.916857133579452,
+        "ratio": 1.0223780635941744
+      },
+      "median:Reveal-Publisher": {
+        "n": 6,
+        "mean": 0.09316641666666214,
+        "lo": -0.2620231552801216,
+        "hi": 0.4483559886134459,
+        "ratio": 1.0002004927571875
+      },
+      "median:Public": {
+        "mean": 455.21126391666667,
+        "sd": 0.9685443231337807
+      },
+      "median:Publisher": {
+        "mean": 465.3038021666667,
+        "sd": 0.5906240386192113
+      },
+      "median:Reveal": {
+        "mean": 465.3969685833333,
+        "sd": 0.5706613992550685
+      }
+    }
+  },
+  "time_model": {
+    "alpha_ms_per_wire": 0.019478059598595974,
+    "kappa_ms": {
+      "4096": 134.54283091507781,
+      "8192": 178.89676472837874,
+      "16384": 279.292314228879
+    },
+    "commitment_cells": {
+      "DEPTH-D05": {
+        "predicted": 214.32496303092694,
+        "measured": 233.07430486328124,
+        "rel_error": -0.08044362437700914
+      },
+      "DEPTH-D08": {
+        "predicted": 289.3568407120165,
+        "measured": 281.6150243619792,
+        "rel_error": 0.027490778830344675
+      },
+      "DEPTH-D10": {
+        "predicted": 309.8088032905423,
+        "measured": 322.1123735234375,
+        "rel_error": -0.0381965153909245
+      },
+      "DEPTH-D12": {
+        "predicted": 330.26076586906805,
+        "measured": 328.57015035546874,
+        "rel_error": 0.005145371579768465
+      },
+      "DEPTH-D13": {
+        "predicted": 440.88229665883114,
+        "measured": 437.87039055729167,
+        "rel_error": 0.00687853338908373
+      },
+      "DEPTH-D16": {
+        "predicted": 471.56024052661985,
+        "measured": 472.12925093359377,
+        "rel_error": -0.0012052004950948714
+      },
+      "DEPTH-D20": {
+        "predicted": 512.4641656836714,
+        "measured": 511.37712439713545,
+        "rel_error": 0.002125713557909803
+      }
+    }
+  },
+  "time_model_median": {
+    "alpha_ms_per_wire": 0.020655442461190023,
+    "kappa_ms": {
+      "4096": 127.01124012386211,
+      "8192": 166.99098296497806,
+      "16384": 262.5169868262401
+    },
+    "commitment_cells": {
+      "DEPTH-D05": {
+        "predicted": 211.61593244489643,
+        "measured": 218.67922308333334,
+        "rel_error": -0.03229977927873495
+      },
+      "DEPTH-D08": {
+        "predicted": 284.1279971623867,
+        "measured": 279.14071264583333,
+        "rel_error": 0.017866560808279974
+      },
+      "DEPTH-D10": {
+        "predicted": 305.8162117466362,
+        "measured": 315.40870666666666,
+        "rel_error": -0.030412904644918637
+      },
+      "DEPTH-D12": {
+        "predicted": 327.50442633088574,
+        "measured": 326.92506683333335,
+        "rel_error": 0.0017721476764207544
+      },
+      "DEPTH-D13": {
+        "predicted": 433.87453748427254,
+        "measured": 434.7590789166667,
+        "rel_error": -0.0020345554015760436
+      },
+      "DEPTH-D16": {
+        "predicted": 466.4068593606468,
+        "measured": 467.0992846875,
+        "rel_error": -0.0014823943207630252
+      },
+      "DEPTH-D20": {
+        "predicted": 509.78328852914586,
+        "measured": 508.58802335416664,
+        "rel_error": 0.0023501638263054847
+      }
+    }
+  },
+  "time_model_validation": {
+    "leave_one_depth_out": {
+      "DEPTH-D05": {
+        "identifiable": false
+      },
+      "DEPTH-D08": {
+        "identifiable": true,
+        "predicted": 288.4255219252318,
+        "measured": 272.70086600520835,
+        "rel_error": 0.057662654872988606
+      },
+      "DEPTH-D10": {
+        "identifiable": true,
+        "predicted": 294.9448433106459,
+        "measured": 312.323386703125,
+        "rel_error": -0.05564278607480011
+      },
+      "DEPTH-D12": {
+        "identifiable": true,
+        "predicted": 322.000063180276,
+        "measured": 316.26100012239584,
+        "rel_error": 0.018146603772387637
+      },
+      "DEPTH-D13": {
+        "identifiable": true,
+        "predicted": 332.30321948914917,
+        "measured": 328.2693647109375,
+        "rel_error": 0.012288246214396947
+      },
+      "DEPTH-D16": {
+        "identifiable": true,
+        "predicted": 462.0287050236143,
+        "measured": 461.202899453125,
+        "rel_error": 0.0017905472222063956
+      },
+      "DEPTH-D20": {
+        "identifiable": true,
+        "predicted": 501.81643144253246,
+        "measured": 502.6422370130208,
+        "rel_error": -0.0016429291246906619
+      }
+    },
+    "lodo_rel_error_min": -0.05564278607480011,
+    "lodo_rel_error_max": 0.057662654872988606,
+    "lodo_rel_error_max_abs_D_ge_12": 0.018146603772387637,
+    "near_replica_D12": {
+      "excluded_public_cell": "DEPTH-D13",
+      "predicted": 332.1615537030207,
+      "measured": 328.57015035546874,
+      "rel_error": 0.01093040053597849
+    },
+    "threshold": {
+      "cell": "DEPTH-D13",
+      "measured_ratio_pooled": {
+        "n": 12,
+        "mean": 1.3339315185281417,
+        "lo": 1.3260058076627426,
+        "hi": 1.341857229393541
+      },
+      "predicted_ratio": 1.3344011804705116,
+      "predicted_ratio_bootstrap_lo": 1.322032178011707,
+      "predicted_ratio_bootstrap_hi": 1.3474844166283029,
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 20261112,
+      "prove_only_ratio_publisher": {
+        "n": 12,
+        "mean": 1.3710893824246988,
+        "lo": 1.3626151421971664,
+        "hi": 1.3795636226522312
+      },
+      "prove_ms_mean": {
+        "Public": 295.160759359375,
+        "Publisher": 404.67448916666666,
+        "Reveal": 404.2811742473958
+      }
+    }
+  },
+  "memory_vs_key": {
+    "slope_MiB_per_key_MiB": 42.89353698206089,
+    "intercept_MiB": 233.22346968994637,
+    "pearson_r": 0.8831094470702443,
+    "n_runs": 252
+  },
+  "memory_controls": {
+    "cells": {
+      "CAND-C02": {
+        "reveal_minus_publisher": {
+          "n": 6,
+          "mean": 6.078993055555553,
+          "lo": 1.343550514135309,
+          "hi": 10.814435596975796
+        },
+        "proving_peak_rss_MiB": {
+          "Public": 429.8810763888889,
+          "Publisher": 442.2204861111111,
+          "Reveal": 447.1310763888889
+        },
+        "baseline_peak_rss_MiB": {
+          "Public": 72.76128472222223,
+          "Publisher": 73.89930555555556,
+          "Reveal": 72.73090277777777
+        }
+      },
+      "CAND-C08": {
+        "reveal_minus_publisher": {
+          "n": 6,
+          "mean": 3.260416666666657,
+          "lo": -5.064771567153143,
+          "hi": 11.585604900486457
+        },
+        "proving_peak_rss_MiB": {
+          "Public": 433.4470486111111,
+          "Publisher": 442.02777777777777,
+          "Reveal": 446.1979166666667
+        },
+        "baseline_peak_rss_MiB": {
+          "Public": 72.78472222222223,
+          "Publisher": 72.75173611111111,
+          "Reveal": 73.66145833333334
+        }
+      },
+      "DEPTH-D05": {
+        "reveal_minus_publisher": {
+          "n": 12,
+          "mean": -0.38454861111111427,
+          "lo": -5.076403178403318,
+          "hi": 4.307305956181089
+        },
+        "proving_peak_rss_MiB": {
+          "Public": 328.25824652777777,
+          "Publisher": 340.62934027777777,
+          "Reveal": 340.36805555555554
+        },
+        "baseline_peak_rss_MiB": {
+          "Public": 72.34201388888889,
+          "Publisher": 72.38541666666667,
+          "Reveal": 72.50868055555556
+        }
+      },
+      "DEPTH-D08": {
+        "reveal_minus_publisher": {
+          "n": 12,
+          "mean": 1.4266493055555476,
+          "lo": -0.10260375241092778,
+          "hi": 2.955902363522023
+        },
+        "proving_peak_rss_MiB": {
+          "Public": 400.65928819444446,
+          "Publisher": 419.4700520833333,
+          "Reveal": 421.03038194444446
+        },
+        "baseline_peak_rss_MiB": {
+          "Public": 72.70572916666666,
+          "Publisher": 72.4765625,
+          "Reveal": 72.61024305555556
+        }
+      },
+      "DEPTH-D10": {
+        "reveal_minus_publisher": {
+          "n": 12,
+          "mean": 5.421440972222219,
+          "lo": -4.8814632246739444,
+          "hi": 15.724345169118383
+        },
+        "proving_peak_rss_MiB": {
+          "Public": 432.29513888888886,
+          "Publisher": 436.72960069444446,
+          "Reveal": 442.45225694444446
+        },
+        "baseline_peak_rss_MiB": {
+          "Public": 73.30381944444444,
+          "Publisher": 73.04904513888889,
+          "Reveal": 73.35026041666667
+        }
+      },
+      "DEPTH-D12": {
+        "reveal_minus_publisher": {
+          "n": 12,
+          "mean": 2.2916666666666665,
+          "lo": 0.2720730832626468,
+          "hi": 4.311260250070687
+        },
+        "proving_peak_rss_MiB": {
+          "Public": 460.4309895833333,
+          "Publisher": 474.7209201388889,
+          "Reveal": 476.8146701388889
+        },
+        "baseline_peak_rss_MiB": {
+          "Public": 73.23524305555556,
+          "Publisher": 73.54079861111111,
+          "Reveal": 73.34288194444444
+        }
+      },
+      "DEPTH-D13": {
+        "reveal_minus_publisher": {
+          "n": 12,
+          "mean": 8.714409722222223,
+          "lo": 3.425644810769838,
+          "hi": 14.003174633674607
+        },
+        "proving_peak_rss_MiB": {
+          "Public": 469.6814236111111,
+          "Publisher": 488.7486979166667,
+          "Reveal": 497.46571180555554
+        },
+        "baseline_peak_rss_MiB": {
+          "Public": 73.32248263888889,
+          "Publisher": 74.29557291666667,
+          "Reveal": 74.29817708333333
+        }
+      },
+      "DEPTH-D16": {
+        "reveal_minus_publisher": {
+          "n": 12,
+          "mean": 3.7335069444444478,
+          "lo": -2.150984817933955,
+          "hi": 9.617998706822851
+        },
+        "proving_peak_rss_MiB": {
+          "Public": 489.00477430555554,
+          "Publisher": 497.12847222222223,
+          "Reveal": 500.68272569444446
+        },
+        "baseline_peak_rss_MiB": {
+          "Public": 74.22222222222223,
+          "Publisher": 75.15277777777777,
+          "Reveal": 74.97352430555556
+        }
+      },
+      "DEPTH-D20": {
+        "reveal_minus_publisher": {
+          "n": 12,
+          "mean": 6.105468749999996,
+          "lo": 1.1939450192635128,
+          "hi": 11.016992480736478
+        },
+        "proving_peak_rss_MiB": {
+          "Public": 492.54296875,
+          "Publisher": 492.10894097222223,
+          "Reveal": 498.1458333333333
+        },
+        "baseline_peak_rss_MiB": {
+          "Public": 75.04991319444444,
+          "Publisher": 75.49262152777777,
+          "Reveal": 75.42404513888889
+        }
+      },
+      "SCALE-B0128": {
+        "reveal_minus_publisher": {
+          "n": 6,
+          "mean": 7.3125,
+          "lo": 2.7949918391298043,
+          "hi": 11.830008160870197
+        },
+        "proving_peak_rss_MiB": {
+          "Public": 493.76475694444446,
+          "Publisher": 492.2578125,
+          "Reveal": 500.28125
+        },
+        "baseline_peak_rss_MiB": {
+          "Public": 74.88628472222223,
+          "Publisher": 74.61631944444444,
+          "Reveal": 75.32725694444444
+        }
+      },
+      "SCALE-B0512": {
+        "reveal_minus_publisher": {
+          "n": 6,
+          "mean": 10.405381944444448,
+          "lo": -11.328469934512546,
+          "hi": 32.13923382340144
+        },
+        "proving_peak_rss_MiB": {
+          "Public": 490.89149305555554,
+          "Publisher": 486.1467013888889,
+          "Reveal": 497.6032986111111
+        },
+        "baseline_peak_rss_MiB": {
+          "Public": 74.72048611111111,
+          "Publisher": 74.93055555555556,
+          "Reveal": 75.98177083333333
+        }
+      },
+      "SCALE-B1024": {
+        "reveal_minus_publisher": {
+          "n": 6,
+          "mean": 6.486979166666667,
+          "lo": -5.177142630173262,
+          "hi": 18.151100963506597
+        },
+        "proving_peak_rss_MiB": {
+          "Public": 490.5729166666667,
+          "Publisher": 494.9869791666667,
+          "Reveal": 501.1770833333333
+        },
+        "baseline_peak_rss_MiB": {
+          "Public": 74.64322916666667,
+          "Publisher": 74.94704861111111,
+          "Reveal": 74.65017361111111
+        }
+      }
+    },
+    "reveal_minus_publisher_positive_cells": 11,
+    "cells_total": 12,
+    "reveal_minus_publisher_min": -0.38454861111111427,
+    "reveal_minus_publisher_max": 10.405381944444448,
+    "reveal_minus_publisher_mean_of_cells": 5.071072048611109,
+    "proving_peak_rss_min_MiB": 328.25824652777777,
+    "proving_peak_rss_max_MiB": 501.1770833333333,
+    "baseline_peak_rss_min_MiB": 72.34201388888889,
+    "baseline_peak_rss_max_MiB": 75.98177083333333
+  },
+  "result_phase": {
+    "cells": {
+      "CAND-C02": {
+        "Public": {
+          "B": 32,
+          "C": 2,
+          "gas_mean": 0,
+          "gas_per_ballot": 0.0,
+          "ms_mean": 36.712895833333334,
+          "ms_sd": 0.5953124638128844
+        },
+        "Publisher": {
+          "B": 32,
+          "C": 2,
+          "gas_mean": 258877,
+          "gas_per_ballot": 8089.90625,
+          "ms_mean": 769.2725901666666,
+          "ms_sd": 10.30228420943663
+        },
+        "Reveal": {
+          "B": 32,
+          "C": 2,
+          "gas_mean": 1357467,
+          "gas_per_ballot": 42420.84375,
+          "ms_mean": 1221.3527291666667,
+          "ms_sd": 33.074714214977476
+        }
+      },
+      "CAND-C08": {
+        "Public": {
+          "B": 32,
+          "C": 8,
+          "gas_mean": 0,
+          "gas_per_ballot": 0.0,
+          "ms_mean": 37.1813195,
+          "ms_sd": 1.4586501629392492
+        },
+        "Publisher": {
+          "B": 32,
+          "C": 8,
+          "gas_mean": 397267.3333333333,
+          "gas_per_ballot": 12414.604166666666,
+          "ms_mean": 764.1047841666667,
+          "ms_sd": 17.406409605538293
+        },
+        "Reveal": {
+          "B": 32,
+          "C": 8,
+          "gas_mean": 1502077,
+          "gas_per_ballot": 46939.90625,
+          "ms_mean": 1250.3296875,
+          "ms_sd": 23.21618205778392
+        }
+      },
+      "DEPTH-D05": {
+        "Public": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 0,
+          "gas_per_ballot": 0.0,
+          "ms_mean": 35.251086666666666,
+          "ms_sd": 0.8970068696413066
+        },
+        "Publisher": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 306118,
+          "gas_per_ballot": 9566.1875,
+          "ms_mean": 715.8605796666667,
+          "ms_sd": 66.69568753085349
+        },
+        "Reveal": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 1406919,
+          "gas_per_ballot": 43966.21875,
+          "ms_mean": 1202.452757,
+          "ms_sd": 245.82012546339826
+        }
+      },
+      "DEPTH-D08": {
+        "Public": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 0,
+          "gas_per_ballot": 0.0,
+          "ms_mean": 34.7170625,
+          "ms_sd": 0.5410887816455237
+        },
+        "Publisher": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 306117,
+          "gas_per_ballot": 9566.15625,
+          "ms_mean": 700.4788165,
+          "ms_sd": 13.621465983155987
+        },
+        "Reveal": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 1406904,
+          "gas_per_ballot": 43965.75,
+          "ms_mean": 1170.0296979166667,
+          "ms_sd": 32.88494777325737
+        }
+      },
+      "DEPTH-D10": {
+        "Public": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 0,
+          "gas_per_ballot": 0.0,
+          "ms_mean": 34.978618,
+          "ms_sd": 1.46783492346901
+        },
+        "Publisher": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 306119,
+          "gas_per_ballot": 9566.21875,
+          "ms_mean": 705.1915624166667,
+          "ms_sd": 18.67741291985437
+        },
+        "Reveal": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 1406904,
+          "gas_per_ballot": 43965.75,
+          "ms_mean": 1174.7226144166666,
+          "ms_sd": 41.096913007038495
+        }
+      },
+      "DEPTH-D12": {
+        "Public": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 0,
+          "gas_per_ballot": 0.0,
+          "ms_mean": 35.26879516666666,
+          "ms_sd": 1.9609310803698163
+        },
+        "Publisher": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 306114,
+          "gas_per_ballot": 9566.0625,
+          "ms_mean": 721.2071913333333,
+          "ms_sd": 34.410140557961626
+        },
+        "Reveal": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 1406918,
+          "gas_per_ballot": 43966.1875,
+          "ms_mean": 1188.0283749166667,
+          "ms_sd": 60.92364224376894
+        }
+      },
+      "DEPTH-D13": {
+        "Public": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 0,
+          "gas_per_ballot": 0.0,
+          "ms_mean": 36.20472575,
+          "ms_sd": 1.0909851239583364
+        },
+        "Publisher": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 306117,
+          "gas_per_ballot": 9566.15625,
+          "ms_mean": 762.8342780833333,
+          "ms_sd": 11.853703910563343
+        },
+        "Reveal": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 1406921,
+          "gas_per_ballot": 43966.28125,
+          "ms_mean": 1244.7211873333333,
+          "ms_sd": 30.090676062262258
+        }
+      },
+      "DEPTH-D16": {
+        "Public": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 0,
+          "gas_per_ballot": 0.0,
+          "ms_mean": 35.109170166666665,
+          "ms_sd": 1.5949539565060602
+        },
+        "Publisher": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 306116,
+          "gas_per_ballot": 9566.125,
+          "ms_mean": 732.88435375,
+          "ms_sd": 29.81910328126494
+        },
+        "Reveal": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 1406918,
+          "gas_per_ballot": 43966.1875,
+          "ms_mean": 1218.159875,
+          "ms_sd": 46.76261228640434
+        }
+      },
+      "DEPTH-D20": {
+        "Public": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 0,
+          "gas_per_ballot": 0.0,
+          "ms_mean": 35.76573616666667,
+          "ms_sd": 1.4462920315661671
+        },
+        "Publisher": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 306121,
+          "gas_per_ballot": 9566.28125,
+          "ms_mean": 756.6305969166667,
+          "ms_sd": 27.83404976399089
+        },
+        "Reveal": {
+          "B": 32,
+          "C": 4,
+          "gas_mean": 1406929,
+          "gas_per_ballot": 43966.53125,
+          "ms_mean": 1203.6898055,
+          "ms_sd": 44.24272543825508
+        }
+      },
+      "SCALE-B0128": {
+        "Public": {
+          "B": 128,
+          "C": 4,
+          "gas_mean": 0,
+          "gas_per_ballot": 0.0,
+          "ms_mean": 67.53729166666666,
+          "ms_sd": 5.075885659456119
+        },
+        "Publisher": {
+          "B": 128,
+          "C": 4,
+          "gas_mean": 306128,
+          "gas_per_ballot": 2391.625,
+          "ms_mean": 2216.4267221666664,
+          "ms_sd": 16.736315431892024
+        },
+        "Reveal": {
+          "B": 128,
+          "C": 4,
+          "gas_mean": 5101422,
+          "gas_per_ballot": 39854.859375,
+          "ms_mean": 4389.011361333333,
+          "ms_sd": 116.09181880293232
+        }
+      },
+      "SCALE-B0512": {
+        "Public": {
+          "B": 512,
+          "C": 4,
+          "gas_mean": 0,
+          "gas_per_ballot": 0.0,
+          "ms_mean": 661.9847151666667,
+          "ms_sd": 1204.2608083337961
+        },
+        "Publisher": {
+          "B": 512,
+          "C": 4,
+          "gas_mean": 306132,
+          "gas_per_ballot": 597.9140625,
+          "ms_mean": 7897.306382,
+          "ms_sd": 362.55438319279705
+        },
+        "Reveal": {
+          "B": 512,
+          "C": 4,
+          "gas_mean": 19899658,
+          "gas_per_ballot": 38866.51953125,
+          "ms_mean": 16670.008854,
+          "ms_sd": 748.5310254390336
+        }
+      },
+      "SCALE-B1024": {
+        "Public": {
+          "B": 1024,
+          "C": 4,
+          "gas_mean": 0,
+          "gas_per_ballot": 0.0,
+          "ms_mean": 282.44413183333336,
+          "ms_sd": 4.466065213947929
+        },
+        "Publisher": {
+          "B": 1024,
+          "C": 4,
+          "gas_mean": 306150,
+          "gas_per_ballot": 298.974609375,
+          "ms_mean": 15768.009069,
+          "ms_sd": 168.7004230728475
+        },
+        "Reveal": {
+          "B": 1024,
+          "C": 4,
+          "gas_mean": 39644202,
+          "gas_per_ballot": 38715.041015625,
+          "ms_mean": 34882.328132,
+          "ms_sd": 822.3750787122772
+        }
+      }
+    },
+    "summary": {
+      "reveal_marginal_gas_per_ballot": 38542.33503474936,
+      "reveal_intercept_gas": 172982.1415652565,
+      "reveal_finalize_gas_C4": 72820,
+      "publisher_result_gas_C4": 306120.82352941175,
+      "break_even_ballots": 3.454349142160661,
+      "max_abs_rel_residual": 0.0009936671467716263,
+      "reveal_batches": {
+        "first_batch_gas_mean": 1334095.294117647,
+        "later_batch_gas_median": 1231876.0,
+        "later_batch_gas_min": 1231396,
+        "later_batch_gas_max": 1249060,
+        "in_batch_gas_per_ballot_upper": 37839.875,
+        "eip7825_max_ballots_per_batch": 440.10758492199034
+      },
+      "publisher_by_C": {
+        "means": {
+          "2": 258877,
+          "4": 306120.82352941175,
+          "8": 400590.4
+        },
+        "gas_per_candidate": 23618.47946611908,
+        "intercept": 211646.34907597542
+      },
+      "reveal_finalize_by_C": {
+        "2": 67241,
+        "4": 72820,
+        "8": 83977
+      }
+    }
+  },
+  "fixed_costs": {
+    "setup_gas": {
+      "registry": {
+        "min": 729587,
+        "max": 729587
+      },
+      "verifierPublic": {
+        "min": 469611,
+        "max": 469851
+      },
+      "verifierCommitment": {
+        "min": 469635,
+        "max": 469875
+      },
+      "ballotBox": {
+        "min": 2258435,
+        "max": 2258435
+      },
+      "setVerifierPrivate": {
+        "min": 45640,
+        "max": 45640
+      },
+      "poseidonHasher": {
+        "min": 2157126,
+        "max": 2157126
+      },
+      "setCommitmentHasher": {
+        "min": 45546,
+        "max": 45546
+      }
+    },
+    "election_create_gas": {
+      "Public": 97929,
+      "Publisher": 122159,
+      "Reveal": 98144
+    },
+    "verify_ms_median_by_cell": {
+      "CAND-C02": 11.33325,
+      "CAND-C08": 11.3269165,
+      "DEPTH-D05": 10.1488545,
+      "DEPTH-D08": 11.282103500000002,
+      "DEPTH-D10": 11.337125499999999,
+      "DEPTH-D12": 11.305250000000001,
+      "DEPTH-D13": 11.106125,
+      "DEPTH-D16": 10.979437,
+      "DEPTH-D20": 10.9942295,
+      "SCALE-B0128": 11.0771875,
+      "SCALE-B0512": 11.32225,
+      "SCALE-B1024": 11.583833
+    },
+    "calldata": {
+      "Public": {
+        "bytes": [
+          356
+        ],
+        "gas_mean": 4929.579044117647
+      },
+      "Publisher": {
+        "bytes": [
+          356
+        ],
+        "gas_mean": 5303.117647058823
+      },
+      "Reveal": {
+        "bytes": [
+          356
+        ],
+        "gas_mean": 5303.058823529412
+      }
+    },
+    "verifier_execution_gas_values": [
+      221447
+    ]
+  },
+  "host_disturbances": {
+    "stalled_ballots": 6,
+    "total_ballots": 39168,
+    "stalls": [
+      {
+        "cell": "DEPTH-D05",
+        "block": 8,
+        "workflow": "Publisher",
+        "ms": 5814.467209
+      },
+      {
+        "cell": "DEPTH-D05",
+        "block": 8,
+        "workflow": "Publisher",
+        "ms": 948.278
+      },
+      {
+        "cell": "DEPTH-D05",
+        "block": 8,
+        "workflow": "Publisher",
+        "ms": 1270.634042
+      },
+      {
+        "cell": "DEPTH-D08",
+        "block": 2,
+        "workflow": "Public",
+        "ms": 821.403125
+      },
+      {
+        "cell": "DEPTH-D10",
+        "block": 3,
+        "workflow": "Public",
+        "ms": 875.901833
+      },
+      {
+        "cell": "SCALE-B0512",
+        "block": 2,
+        "workflow": "Public",
+        "ms": 1553.397917
+      }
+    ],
+    "slowest_ballot_ms": 5814.467209,
+    "slowest_ballot_where": "DEPTH-D05 block 8 Publisher",
+    "stall_runs": [
+      {
+        "cell": "DEPTH-D05",
+        "block": 8,
+        "workflow": "Publisher",
+        "stalls_ms": [
+          5814.467209,
+          1270.634042,
+          948.278
+        ],
+        "run_mean": 496.23360943750004,
+        "run_median": 225.706167,
+        "run_mean_without_stalls": 270.555043137931,
+        "longest_stall_share_of_mean": 174.6487825625
+      },
+      {
+        "cell": "DEPTH-D10",
+        "block": 3,
+        "workflow": "Public",
+        "stalls_ms": [
+          875.901833
+        ],
+        "run_mean": 310.253532625,
+        "run_median": 290.5317295,
+        "run_mean_without_stalls": 292.00681325806454,
+        "longest_stall_share_of_mean": 18.292815734375
+      },
+      {
+        "cell": "DEPTH-D08",
+        "block": 2,
+        "workflow": "Public",
+        "stalls_ms": [
+          821.403125
+        ],
+        "run_mean": 291.29195315625,
+        "run_median": 267.603125,
+        "run_mean_without_stalls": 274.19159277419357,
+        "longest_stall_share_of_mean": 17.306250000000002
+      },
+      {
+        "cell": "SCALE-B0512",
+        "block": 2,
+        "workflow": "Public",
+        "stalls_ms": [
+          1553.397917
+        ],
+        "run_mean": 532.4230823007813,
+        "run_median": 499.765,
+        "run_mean_without_stalls": 530.4250884951076,
+        "longest_stall_share_of_mean": 2.057876791015625
+      }
+    ],
+    "cell_execution_order": [
+      "DEPTH-D05",
+      "DEPTH-D08",
+      "DEPTH-D10",
+      "DEPTH-D12",
+      "DEPTH-D13",
+      "DEPTH-D16",
+      "DEPTH-D20",
+      "CAND-C02",
+      "CAND-C08",
+      "SCALE-B0128",
+      "SCALE-B0512",
+      "SCALE-B1024"
+    ],
+    "public_drift_within_cell": {
+      "DEPTH-D05": {
+        "public_run_means_in_order": [
+          209.28097259375,
+          206.0615378125,
+          206.5839844375,
+          228.3121381875,
+          206.48394803125,
+          201.0036263125,
+          216.5714205625,
+          198.31054828125,
+          193.65607678125,
+          195.2499453125,
+          196.64896484375,
+          192.66077475
+        ],
+        "first": 209.28097259375,
+        "last": 192.66077475
+      },
+      "DEPTH-D08": {
+        "public_run_means_in_order": [
+          269.66650903125003,
+          291.29195315625,
+          272.17008071875,
+          274.5129061875,
+          268.30650540625,
+          269.565152375,
+          268.35173175,
+          267.68196746875,
+          267.5503698125,
+          270.63872784375,
+          280.88867059375,
+          271.78581771874997
+        ],
+        "first": 269.66650903125003,
+        "last": 271.78581771874997
+      },
+      "DEPTH-D10": {
+        "public_run_means_in_order": [
+          290.58070825,
+          293.85803125,
+          310.253532625,
+          289.366548125,
+          298.262158875,
+          346.98326428125,
+          305.88051684375,
+          358.352841125,
+          333.72339725,
+          302.07354687500003,
+          313.07583984375,
+          305.47025509375
+        ],
+        "first": 290.58070825,
+        "last": 305.47025509375
+      },
+      "DEPTH-D12": {
+        "public_run_means_in_order": [
+          316.40763684374997,
+          315.2796926875,
+          316.91667309375,
+          317.8387083125,
+          318.489302125,
+          317.12662225,
+          317.1580703125,
+          315.91409121875,
+          315.73812890625,
+          314.64488153125,
+          314.2066603125,
+          315.411533875
+        ],
+        "first": 316.40763684374997,
+        "last": 315.411533875
+      },
+      "DEPTH-D13": {
+        "public_run_means_in_order": [
+          329.633846375,
+          326.45908853125,
+          327.86210428125,
+          327.37241153125,
+          333.290224,
+          329.11547009375,
+          329.0928685,
+          326.803119625,
+          327.9646445625,
+          326.5975560625,
+          327.71498559375,
+          327.326057375
+        ],
+        "first": 329.633846375,
+        "last": 327.326057375
+      },
+      "DEPTH-D16": {
+        "public_run_means_in_order": [
+          455.58410171875,
+          465.30182175,
+          468.56513546875,
+          458.42873571875,
+          458.60042184375004,
+          458.91119009375,
+          459.2882448125,
+          473.7474480625,
+          458.75001815625,
+          458.73921743750003,
+          458.68100528125,
+          459.83745309375
+        ],
+        "first": 455.58410171875,
+        "last": 459.83745309375
+      },
+      "DEPTH-D20": {
+        "public_run_means_in_order": [
+          495.9502955625,
+          498.05100528125,
+          501.26782421875,
+          503.76976171875,
+          521.34037640625,
+          506.37131775,
+          499.2903371875,
+          507.093319125,
+          498.3297551875,
+          500.07607037500003,
+          500.93842709375,
+          499.22835425
+        ],
+        "first": 495.9502955625,
+        "last": 499.22835425
+      },
+      "CAND-C02": {
+        "public_run_means_in_order": [
+          294.269197875,
+          313.60015384375,
+          293.6482043125,
+          293.00923696875,
+          297.46132024999997,
+          295.09898703125
+        ],
+        "first": 294.269197875,
+        "last": 295.09898703125
+      },
+      "CAND-C08": {
+        "public_run_means_in_order": [
+          297.383841125,
+          294.288414,
+          291.78992053125,
+          292.85077206249997,
+          298.757164,
+          295.12781384375
+        ],
+        "first": 297.383841125,
+        "last": 295.12781384375
+      },
+      "SCALE-B0128": {
+        "public_run_means_in_order": [
+          458.1258408125,
+          460.6957679140625,
+          459.9313919609375,
+          458.725022453125,
+          458.34626946875,
+          485.6031249921875
+        ],
+        "first": 458.1258408125,
+        "last": 485.6031249921875
+      },
+      "SCALE-B0512": {
+        "public_run_means_in_order": [
+          497.9597517890625,
+          532.4230823007813,
+          490.95375566992186,
+          460.3103754980469,
+          456.6416237109375,
+          455.8074917578125
+        ],
+        "first": 497.9597517890625,
+        "last": 455.8074917578125
+      },
+      "SCALE-B1024": {
+        "public_run_means_in_order": [
+          456.90328131738283,
+          459.6766483173828,
+          459.1215452294922,
+          457.5610067578125,
+          458.2449144833984,
+          462.5116048945313
+        ],
+        "first": 456.90328131738283,
+        "last": 462.5116048945313
+      }
+    }
+  },
+  "per_block_proof_time": {
+    "DEPTH-D05": {
+      "1": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 239.61585165625,
+          "median": 233.99320799999998
+        },
+        "Public": {
+          "mean": 209.28097259375,
+          "median": 207.03922899999998
+        },
+        "Reveal": {
+          "mean": 229.04397396875,
+          "median": 227.844292
+        },
+        "mean:Publisher-Public": 30.334879062499994,
+        "mean:Reveal-Public": 19.763001375000016,
+        "mean:Reveal-Publisher": -10.571877687499978,
+        "median:Publisher-Public": 26.953979000000004,
+        "median:Reveal-Public": 20.80506300000002,
+        "median:Reveal-Publisher": -6.148915999999986
+      },
+      "2": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 225.37298309375,
+          "median": 226.035375
+        },
+        "Reveal": {
+          "mean": 229.768872375,
+          "median": 228.7979585
+        },
+        "Public": {
+          "mean": 206.0615378125,
+          "median": 205.847042
+        },
+        "mean:Publisher-Public": 19.311445281250002,
+        "mean:Reveal-Public": 23.707334562499994,
+        "mean:Reveal-Publisher": 4.395889281249993,
+        "median:Publisher-Public": 20.188333,
+        "median:Reveal-Public": 22.950916500000005,
+        "median:Reveal-Publisher": 2.762583500000005
+      },
+      "3": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 227.53807940625,
+          "median": 225.547667
+        },
+        "Public": {
+          "mean": 206.5839844375,
+          "median": 207.043792
+        },
+        "Publisher": {
+          "mean": 231.23696093750002,
+          "median": 229.06008300000002
+        },
+        "mean:Publisher-Public": 24.652976500000022,
+        "mean:Reveal-Public": 20.954094968750013,
+        "mean:Reveal-Publisher": -3.6988815312500094,
+        "median:Publisher-Public": 22.016291000000024,
+        "median:Reveal-Public": 18.503874999999994,
+        "median:Reveal-Publisher": -3.51241600000003
+      },
+      "4": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 229.64986715625,
+          "median": 225.9553955
+        },
+        "Publisher": {
+          "mean": 229.2748568125,
+          "median": 227.4843545
+        },
+        "Public": {
+          "mean": 228.3121381875,
+          "median": 216.3173755
+        },
+        "mean:Publisher-Public": 0.9627186249999795,
+        "mean:Reveal-Public": 1.3377289687499854,
+        "mean:Reveal-Publisher": 0.37501034375000586,
+        "median:Publisher-Public": 11.166978999999998,
+        "median:Reveal-Public": 9.638020000000012,
+        "median:Reveal-Publisher": -1.5289589999999862
+      },
+      "5": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 206.48394803125,
+          "median": 205.9715835
+        },
+        "Publisher": {
+          "mean": 259.89251171875003,
+          "median": 234.2761875
+        },
+        "Reveal": {
+          "mean": 221.03597653125001,
+          "median": 219.69458300000002
+        },
+        "mean:Publisher-Public": 53.40856368750002,
+        "mean:Reveal-Public": 14.552028500000006,
+        "mean:Reveal-Publisher": -38.856535187500015,
+        "median:Publisher-Public": 28.304603999999983,
+        "median:Reveal-Public": 13.722999500000014,
+        "median:Reveal-Publisher": -14.581604499999969
+      },
+      "6": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 201.0036263125,
+          "median": 199.6723125
+        },
+        "Reveal": {
+          "mean": 221.91655459375,
+          "median": 219.1966665
+        },
+        "Publisher": {
+          "mean": 220.73333859375,
+          "median": 218.8891455
+        },
+        "mean:Publisher-Public": 19.729712281250016,
+        "mean:Reveal-Public": 20.912928281250004,
+        "mean:Reveal-Publisher": 1.1832159999999874,
+        "median:Publisher-Public": 19.21683300000001,
+        "median:Reveal-Public": 19.524353999999988,
+        "median:Reveal-Publisher": 0.30752099999997995
+      },
+      "7": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 220.14388796875,
+          "median": 218.60774999999998
+        },
+        "Public": {
+          "mean": 216.5714205625,
+          "median": 202.933917
+        },
+        "Reveal": {
+          "mean": 212.52907815625,
+          "median": 212.464625
+        },
+        "mean:Publisher-Public": 3.5724674062499844,
+        "mean:Reveal-Public": -4.042342406250015,
+        "mean:Reveal-Publisher": -7.614809812499999,
+        "median:Publisher-Public": 15.673832999999973,
+        "median:Reveal-Public": 9.530708000000004,
+        "median:Reveal-Publisher": -6.143124999999969
+      },
+      "8": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 496.23360943750004,
+          "median": 225.706167
+        },
+        "Reveal": {
+          "mean": 212.002216125,
+          "median": 209.419333
+        },
+        "Public": {
+          "mean": 198.31054828125,
+          "median": 192.6686245
+        },
+        "mean:Publisher-Public": 297.92306115625,
+        "mean:Reveal-Public": 13.691667843749997,
+        "mean:Reveal-Publisher": -284.2313933125,
+        "median:Publisher-Public": 33.0375425,
+        "median:Reveal-Public": 16.750708500000002,
+        "median:Reveal-Publisher": -16.286834
+      },
+      "9": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 216.35005475,
+          "median": 208.7241045
+        },
+        "Public": {
+          "mean": 193.65607678125,
+          "median": 192.2571665
+        },
+        "Publisher": {
+          "mean": 208.64354415625002,
+          "median": 207.948271
+        },
+        "mean:Publisher-Public": 14.987467375000023,
+        "mean:Reveal-Public": 22.693977968750005,
+        "mean:Reveal-Publisher": 7.706510593749982,
+        "median:Publisher-Public": 15.691104499999994,
+        "median:Reveal-Public": 16.466938,
+        "median:Reveal-Publisher": 0.7758335000000045
+      },
+      "10": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 208.78260159375,
+          "median": 206.98279200000002
+        },
+        "Publisher": {
+          "mean": 214.66543884375,
+          "median": 208.7653125
+        },
+        "Public": {
+          "mean": 195.2499453125,
+          "median": 192.71575
+        },
+        "mean:Publisher-Public": 19.415493531250007,
+        "mean:Reveal-Public": 13.532656281250013,
+        "mean:Reveal-Publisher": -5.882837249999994,
+        "median:Publisher-Public": 16.04956249999998,
+        "median:Reveal-Public": 14.267042000000004,
+        "median:Reveal-Publisher": -1.7825204999999755
+      },
+      "11": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 196.64896484375,
+          "median": 196.6706875
+        },
+        "Publisher": {
+          "mean": 217.94270053125,
+          "median": 211.656062
+        },
+        "Reveal": {
+          "mean": 207.07861987500002,
+          "median": 207.1338955
+        },
+        "mean:Publisher-Public": 21.293735687500003,
+        "mean:Reveal-Public": 10.429655031250007,
+        "mean:Reveal-Publisher": -10.864080656249996,
+        "median:Publisher-Public": 14.985374499999978,
+        "median:Reveal-Public": 10.46320799999998,
+        "median:Reveal-Publisher": -4.522166499999997
+      },
+      "12": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 192.66077475,
+          "median": 191.85947900000002
+        },
+        "Reveal": {
+          "mean": 206.9714805625,
+          "median": 206.8420625
+        },
+        "Publisher": {
+          "mean": 207.360257875,
+          "median": 207.276063
+        },
+        "mean:Publisher-Public": 14.699483125,
+        "mean:Reveal-Public": 14.310705812500004,
+        "mean:Reveal-Publisher": -0.3887773124999967,
+        "median:Publisher-Public": 15.416583999999972,
+        "median:Reveal-Public": 14.982583499999976,
+        "median:Reveal-Publisher": -0.43400049999999624
+      }
+    },
+    "DEPTH-D08": {
+      "1": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 269.66650903125003,
+          "median": 266.90112450000004
+        },
+        "Publisher": {
+          "mean": 291.4178919375,
+          "median": 279.67870800000003
+        },
+        "Reveal": {
+          "mean": 279.60383065625,
+          "median": 278.87679149999997
+        },
+        "mean:Publisher-Public": 21.751382906249944,
+        "mean:Reveal-Public": 9.937321624999981,
+        "mean:Reveal-Publisher": -11.814061281249963,
+        "median:Publisher-Public": 12.777583499999992,
+        "median:Reveal-Public": 11.97566699999993,
+        "median:Reveal-Publisher": -0.8019165000000612
+      },
+      "2": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 291.29195315625,
+          "median": 267.603125
+        },
+        "Reveal": {
+          "mean": 281.1706054375,
+          "median": 278.817708
+        },
+        "Publisher": {
+          "mean": 278.9678866875,
+          "median": 278.6379375
+        },
+        "mean:Publisher-Public": -12.324066468749947,
+        "mean:Reveal-Public": -10.121347718749973,
+        "mean:Reveal-Publisher": 2.202718749999974,
+        "median:Publisher-Public": 11.034812500000044,
+        "median:Reveal-Public": 11.214583000000005,
+        "median:Reveal-Publisher": 0.17977049999996098
+      },
+      "3": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 279.23968746875,
+          "median": 278.181104
+        },
+        "Public": {
+          "mean": 272.17008071875,
+          "median": 268.350813
+        },
+        "Reveal": {
+          "mean": 280.23251684375,
+          "median": 278.717125
+        },
+        "mean:Publisher-Public": 7.069606749999991,
+        "mean:Reveal-Public": 8.062436124999977,
+        "mean:Reveal-Publisher": 0.9928293749999852,
+        "median:Publisher-Public": 9.830290999999988,
+        "median:Reveal-Public": 10.366311999999994,
+        "median:Reveal-Publisher": 0.5360210000000052
+      },
+      "4": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 281.2497643125,
+          "median": 280.0492915
+        },
+        "Reveal": {
+          "mean": 278.75962112499997,
+          "median": 278.68483349999997
+        },
+        "Public": {
+          "mean": 274.5129061875,
+          "median": 268.83777050000003
+        },
+        "mean:Publisher-Public": 6.736858125000026,
+        "mean:Reveal-Public": 4.2467149374999735,
+        "mean:Reveal-Publisher": -2.4901431875000526,
+        "median:Publisher-Public": 11.211520999999948,
+        "median:Reveal-Public": 9.847062999999935,
+        "median:Reveal-Publisher": -1.3644580000000133
+      },
+      "5": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 281.80978396875,
+          "median": 279.5600625
+        },
+        "Public": {
+          "mean": 268.30650540625,
+          "median": 267.901917
+        },
+        "Publisher": {
+          "mean": 280.6865548125,
+          "median": 278.9801665
+        },
+        "mean:Publisher-Public": 12.38004940625001,
+        "mean:Reveal-Public": 13.503278562500043,
+        "mean:Reveal-Publisher": 1.1232291562500336,
+        "median:Publisher-Public": 11.07824949999997,
+        "median:Reveal-Public": 11.65814549999999,
+        "median:Reveal-Publisher": 0.5798960000000193
+      },
+      "6": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 286.48797775,
+          "median": 279.65141600000004
+        },
+        "Publisher": {
+          "mean": 281.13824215625,
+          "median": 279.785396
+        },
+        "Public": {
+          "mean": 269.565152375,
+          "median": 267.805396
+        },
+        "mean:Publisher-Public": 11.573089781249962,
+        "mean:Reveal-Public": 16.922825375000002,
+        "mean:Reveal-Publisher": 5.34973559375004,
+        "median:Publisher-Public": 11.980000000000018,
+        "median:Reveal-Public": 11.846020000000067,
+        "median:Reveal-Publisher": -0.13397999999995136
+      },
+      "7": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 268.35173175,
+          "median": 268.064979
+        },
+        "Publisher": {
+          "mean": 282.125359375,
+          "median": 280.447687
+        },
+        "Reveal": {
+          "mean": 279.9463216875,
+          "median": 278.8381875
+        },
+        "mean:Publisher-Public": 13.773627625000017,
+        "mean:Reveal-Public": 11.594589937500018,
+        "mean:Reveal-Publisher": -2.1790376874999993,
+        "median:Publisher-Public": 12.38270799999998,
+        "median:Reveal-Public": 10.77320850000001,
+        "median:Reveal-Publisher": -1.6094994999999699
+      },
+      "8": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 267.68196746875,
+          "median": 267.81795850000003
+        },
+        "Reveal": {
+          "mean": 286.77928771874997,
+          "median": 279.704313
+        },
+        "Publisher": {
+          "mean": 280.177390625,
+          "median": 278.1983335
+        },
+        "mean:Publisher-Public": 12.495423156250013,
+        "mean:Reveal-Public": 19.097320249999996,
+        "mean:Reveal-Publisher": 6.601897093749983,
+        "median:Publisher-Public": 10.380374999999958,
+        "median:Reveal-Public": 11.886354499999982,
+        "median:Reveal-Publisher": 1.5059795000000236
+      },
+      "9": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 283.59164459375,
+          "median": 278.376542
+        },
+        "Public": {
+          "mean": 267.5503698125,
+          "median": 267.055937
+        },
+        "Reveal": {
+          "mean": 278.9619595625,
+          "median": 278.1948125
+        },
+        "mean:Publisher-Public": 16.041274781250024,
+        "mean:Reveal-Public": 11.411589750000019,
+        "mean:Reveal-Publisher": -4.6296850312500055,
+        "median:Publisher-Public": 11.320605,
+        "median:Reveal-Public": 11.13887550000004,
+        "median:Reveal-Publisher": -0.18172949999996035
+      },
+      "10": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 282.4208646875,
+          "median": 279.3773125
+        },
+        "Reveal": {
+          "mean": 279.07283059375,
+          "median": 279.0004585
+        },
+        "Public": {
+          "mean": 270.63872784375,
+          "median": 268.3048125
+        },
+        "mean:Publisher-Public": 11.782136843749981,
+        "mean:Reveal-Public": 8.434102749999965,
+        "mean:Reveal-Publisher": -3.348034093750016,
+        "median:Publisher-Public": 11.072499999999991,
+        "median:Reveal-Public": 10.695645999999954,
+        "median:Reveal-Publisher": -0.3768540000000371
+      },
+      "11": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 278.853332,
+          "median": 278.675
+        },
+        "Public": {
+          "mean": 280.88867059375,
+          "median": 271.32218750000004
+        },
+        "Publisher": {
+          "mean": 280.7375391875,
+          "median": 279.6731665
+        },
+        "mean:Publisher-Public": -0.15113140625004462,
+        "mean:Reveal-Public": -2.035338593749998,
+        "mean:Reveal-Publisher": -1.8842071874999533,
+        "median:Publisher-Public": 8.350978999999938,
+        "median:Reveal-Public": 7.35281249999997,
+        "median:Reveal-Publisher": -0.998166499999968
+      },
+      "12": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 285.636631625,
+          "median": 280.441667
+        },
+        "Publisher": {
+          "mean": 279.693059875,
+          "median": 278.8290835
+        },
+        "Public": {
+          "mean": 271.78581771874997,
+          "median": 268.02560400000004
+        },
+        "mean:Publisher-Public": 7.9072421562500494,
+        "mean:Reveal-Public": 13.850813906250039,
+        "mean:Reveal-Publisher": 5.94357174999999,
+        "median:Publisher-Public": 10.80347949999998,
+        "median:Reveal-Public": 12.416062999999951,
+        "median:Reveal-Publisher": 1.612583499999971
+      }
+    },
+    "DEPTH-D10": {
+      "1": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 301.97492840625,
+          "median": 302.04781249999996
+        },
+        "Publisher": {
+          "mean": 305.5310663125,
+          "median": 302.43847900000003
+        },
+        "Public": {
+          "mean": 290.58070825,
+          "median": 289.8764375
+        },
+        "mean:Publisher-Public": 14.950358062500015,
+        "mean:Reveal-Public": 11.394220156250014,
+        "mean:Reveal-Publisher": -3.556137906250001,
+        "median:Publisher-Public": 12.56204150000002,
+        "median:Reveal-Public": 12.171374999999955,
+        "median:Reveal-Publisher": -0.39066650000006575
+      },
+      "2": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 293.85803125,
+          "median": 291.42318750000004
+        },
+        "Publisher": {
+          "mean": 309.04472146874997,
+          "median": 301.415
+        },
+        "Reveal": {
+          "mean": 304.1047681875,
+          "median": 303.04552049999995
+        },
+        "mean:Publisher-Public": 15.186690218749959,
+        "mean:Reveal-Public": 10.246736937499975,
+        "mean:Reveal-Publisher": -4.939953281249984,
+        "median:Publisher-Public": 9.99181249999998,
+        "median:Reveal-Public": 11.622332999999912,
+        "median:Reveal-Publisher": 1.6305204999999319
+      },
+      "3": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 310.253532625,
+          "median": 290.5317295
+        },
+        "Reveal": {
+          "mean": 303.7988606875,
+          "median": 301.61622950000003
+        },
+        "Publisher": {
+          "mean": 306.92402459375,
+          "median": 301.52927049999994
+        },
+        "mean:Publisher-Public": -3.3295080312499863,
+        "mean:Reveal-Public": -6.454671937499995,
+        "mean:Reveal-Publisher": -3.125163906250009,
+        "median:Publisher-Public": 10.997540999999956,
+        "median:Reveal-Public": 11.084500000000048,
+        "median:Reveal-Publisher": 0.0869590000000926
+      },
+      "4": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 301.440046875,
+          "median": 301.4239165
+        },
+        "Public": {
+          "mean": 289.366548125,
+          "median": 289.13045850000003
+        },
+        "Reveal": {
+          "mean": 300.9799856875,
+          "median": 300.9993125
+        },
+        "mean:Publisher-Public": 12.073498749999999,
+        "mean:Reveal-Public": 11.613437562499996,
+        "mean:Reveal-Publisher": -0.4600611875000027,
+        "median:Publisher-Public": 12.293457999999987,
+        "median:Reveal-Public": 11.868853999999942,
+        "median:Reveal-Publisher": -0.42460400000004483
+      },
+      "5": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 300.84257428125,
+          "median": 300.04120850000004
+        },
+        "Reveal": {
+          "mean": 304.4919818125,
+          "median": 302.6704375
+        },
+        "Public": {
+          "mean": 298.262158875,
+          "median": 292.41410400000007
+        },
+        "mean:Publisher-Public": 2.5804154062499833,
+        "mean:Reveal-Public": 6.229822937499989,
+        "mean:Reveal-Publisher": 3.649407531250006,
+        "median:Publisher-Public": 7.627104499999973,
+        "median:Reveal-Public": 10.256333499999926,
+        "median:Reveal-Publisher": 2.6292289999999525
+      },
+      "6": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 307.600352875,
+          "median": 304.46225
+        },
+        "Public": {
+          "mean": 346.98326428125,
+          "median": 310.432813
+        },
+        "Publisher": {
+          "mean": 390.8806861875,
+          "median": 354.281438
+        },
+        "mean:Publisher-Public": 43.897421906249974,
+        "mean:Reveal-Public": -39.38291140625,
+        "mean:Reveal-Publisher": -83.28033331249998,
+        "median:Publisher-Public": 43.84862499999997,
+        "median:Reveal-Public": -5.970563000000027,
+        "median:Reveal-Publisher": -49.819188
+      },
+      "7": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 411.42284771875,
+          "median": 401.423542
+        },
+        "Publisher": {
+          "mean": 323.330984375,
+          "median": 318.1175835
+        },
+        "Public": {
+          "mean": 305.88051684375,
+          "median": 302.71543699999995
+        },
+        "mean:Publisher-Public": 17.450467531250013,
+        "mean:Reveal-Public": 105.542330875,
+        "mean:Reveal-Publisher": 88.09186334374999,
+        "median:Publisher-Public": 15.402146500000072,
+        "median:Reveal-Public": 98.70810500000005,
+        "median:Reveal-Publisher": 83.30595849999997
+      },
+      "8": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 358.352841125,
+          "median": 345.417146
+        },
+        "Publisher": {
+          "mean": 359.894837125,
+          "median": 334.5550415
+        },
+        "Reveal": {
+          "mean": 349.85123953125,
+          "median": 338.140313
+        },
+        "mean:Publisher-Public": 1.5419959999999833,
+        "mean:Reveal-Public": -8.501601593750024,
+        "mean:Reveal-Publisher": -10.043597593750007,
+        "median:Publisher-Public": -10.862104499999987,
+        "median:Reveal-Public": -7.2768330000000105,
+        "median:Reveal-Publisher": 3.585271499999976
+      },
+      "9": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 333.72339725,
+          "median": 322.8588965
+        },
+        "Reveal": {
+          "mean": 331.56109628125,
+          "median": 315.8426455
+        },
+        "Publisher": {
+          "mean": 317.7022369375,
+          "median": 313.27437499999996
+        },
+        "mean:Publisher-Public": -16.0211603125,
+        "mean:Reveal-Public": -2.162300968750003,
+        "mean:Reveal-Publisher": 13.858859343749998,
+        "median:Publisher-Public": -9.58452150000005,
+        "median:Reveal-Public": -7.016251000000011,
+        "median:Reveal-Publisher": 2.5682705000000396
+      },
+      "10": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 322.2987943125,
+          "median": 311.752292
+        },
+        "Public": {
+          "mean": 302.07354687500003,
+          "median": 300.5174795
+        },
+        "Reveal": {
+          "mean": 313.76719787499997,
+          "median": 312.96391700000004
+        },
+        "mean:Publisher-Public": 20.225247437499945,
+        "mean:Reveal-Public": 11.693650999999932,
+        "mean:Reveal-Publisher": -8.531596437500014,
+        "median:Publisher-Public": 11.234812500000032,
+        "median:Reveal-Public": 12.446437500000059,
+        "median:Reveal-Publisher": 1.2116250000000264
+      },
+      "11": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 316.19385421875,
+          "median": 313.941417
+        },
+        "Reveal": {
+          "mean": 322.8927305,
+          "median": 317.5190625
+        },
+        "Public": {
+          "mean": 313.07583984375,
+          "median": 303.584792
+        },
+        "mean:Publisher-Public": 3.1180143750000298,
+        "mean:Reveal-Public": 9.816890656250052,
+        "mean:Reveal-Publisher": 6.698876281250023,
+        "median:Publisher-Public": 10.356625000000008,
+        "median:Reveal-Public": 13.934270500000025,
+        "median:Reveal-Publisher": 3.577645500000017
+      },
+      "12": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 320.0619375,
+          "median": 313.599646
+        },
+        "Public": {
+          "mean": 305.47025509375,
+          "median": 295.140271
+        },
+        "Publisher": {
+          "mean": 304.1052108125,
+          "median": 302.70825
+        },
+        "mean:Publisher-Public": -1.3650442812499932,
+        "mean:Reveal-Public": 14.591682406250015,
+        "mean:Reveal-Publisher": 15.956726687500009,
+        "median:Publisher-Public": 7.567979000000037,
+        "median:Reveal-Public": 18.459375000000023,
+        "median:Reveal-Publisher": 10.891395999999986
+      }
+    },
+    "DEPTH-D12": {
+      "1": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 316.40763684374997,
+          "median": 315.87908300000004
+        },
+        "Publisher": {
+          "mean": 327.65208075,
+          "median": 325.296438
+        },
+        "Reveal": {
+          "mean": 332.6967188125,
+          "median": 327.434583
+        },
+        "mean:Publisher-Public": 11.244443906250012,
+        "mean:Reveal-Public": 16.289081968750054,
+        "mean:Reveal-Publisher": 5.0446380625000415,
+        "median:Publisher-Public": 9.417354999999986,
+        "median:Reveal-Public": 11.555499999999938,
+        "median:Reveal-Publisher": 2.138144999999952
+      },
+      "2": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 315.2796926875,
+          "median": 315.1197495
+        },
+        "Reveal": {
+          "mean": 327.939369625,
+          "median": 326.815021
+        },
+        "Publisher": {
+          "mean": 341.38946746875,
+          "median": 327.65133349999996
+        },
+        "mean:Publisher-Public": 26.109774781249996,
+        "mean:Reveal-Public": 12.659676937499967,
+        "mean:Reveal-Publisher": -13.45009784375003,
+        "median:Publisher-Public": 12.531583999999953,
+        "median:Reveal-Public": 11.69527149999999,
+        "median:Reveal-Publisher": -0.8363124999999627
+      },
+      "3": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 327.97802871875,
+          "median": 326.87204199999996
+        },
+        "Public": {
+          "mean": 316.91667309375,
+          "median": 316.3915625
+        },
+        "Reveal": {
+          "mean": 327.95957040625,
+          "median": 328.549396
+        },
+        "mean:Publisher-Public": 11.061355625000033,
+        "mean:Reveal-Public": 11.042897312500031,
+        "mean:Reveal-Publisher": -0.01845831250000174,
+        "median:Publisher-Public": 10.480479499999944,
+        "median:Reveal-Public": 12.157833499999981,
+        "median:Reveal-Publisher": 1.6773540000000366
+      },
+      "4": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 327.0269323125,
+          "median": 325.5556875
+        },
+        "Reveal": {
+          "mean": 327.05232940625,
+          "median": 327.66402099999993
+        },
+        "Public": {
+          "mean": 317.8387083125,
+          "median": 316.45920850000005
+        },
+        "mean:Publisher-Public": 9.188223999999991,
+        "mean:Reveal-Public": 9.213621093750021,
+        "mean:Reveal-Publisher": 0.025397093750029853,
+        "median:Publisher-Public": 9.096478999999931,
+        "median:Reveal-Public": 11.204812499999889,
+        "median:Reveal-Publisher": 2.108333499999958
+      },
+      "5": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 327.599224,
+          "median": 327.7263335
+        },
+        "Public": {
+          "mean": 318.489302125,
+          "median": 317.1987085
+        },
+        "Publisher": {
+          "mean": 326.6952616875,
+          "median": 326.608333
+        },
+        "mean:Publisher-Public": 8.205959562500027,
+        "mean:Reveal-Public": 9.109921874999998,
+        "mean:Reveal-Publisher": 0.9039623124999707,
+        "median:Publisher-Public": 9.409624500000007,
+        "median:Reveal-Public": 10.527625,
+        "median:Reveal-Publisher": 1.1180004999999937
+      },
+      "6": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 325.57982690625,
+          "median": 324.7613755
+        },
+        "Publisher": {
+          "mean": 328.120418,
+          "median": 326.9771875
+        },
+        "Public": {
+          "mean": 317.12662225,
+          "median": 317.135333
+        },
+        "mean:Publisher-Public": 10.993795749999947,
+        "mean:Reveal-Public": 8.453204656249966,
+        "mean:Reveal-Publisher": -2.540591093749981,
+        "median:Publisher-Public": 9.84185450000001,
+        "median:Reveal-Public": 7.626042499999983,
+        "median:Reveal-Publisher": -2.215812000000028
+      },
+      "7": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 317.1580703125,
+          "median": 313.780917
+        },
+        "Publisher": {
+          "mean": 327.4846863125,
+          "median": 326.811021
+        },
+        "Reveal": {
+          "mean": 328.28811196875,
+          "median": 326.1352915
+        },
+        "mean:Publisher-Public": 10.326616000000001,
+        "mean:Reveal-Public": 11.13004165625,
+        "mean:Reveal-Publisher": 0.8034256562499991,
+        "median:Publisher-Public": 13.030103999999994,
+        "median:Reveal-Public": 12.354374500000006,
+        "median:Reveal-Publisher": -0.6757294999999885
+      },
+      "8": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 315.91409121875,
+          "median": 314.117521
+        },
+        "Reveal": {
+          "mean": 324.62929296875,
+          "median": 324.2589165
+        },
+        "Publisher": {
+          "mean": 326.31485153125,
+          "median": 326.1423955
+        },
+        "mean:Publisher-Public": 10.400760312499983,
+        "mean:Reveal-Public": 8.715201750000006,
+        "mean:Reveal-Publisher": -1.6855585624999776,
+        "median:Publisher-Public": 12.02487450000001,
+        "median:Reveal-Public": 10.141395499999987,
+        "median:Reveal-Publisher": -1.8834790000000226
+      },
+      "9": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 330.3616145625,
+          "median": 327.85789550000004
+        },
+        "Public": {
+          "mean": 315.73812890625,
+          "median": 315.5865415
+        },
+        "Reveal": {
+          "mean": 326.4446054375,
+          "median": 326.146625
+        },
+        "mean:Publisher-Public": 14.623485656250011,
+        "mean:Reveal-Public": 10.706476531250019,
+        "mean:Reveal-Publisher": -3.9170091249999928,
+        "median:Publisher-Public": 12.27135400000003,
+        "median:Reveal-Public": 10.560083499999962,
+        "median:Reveal-Publisher": -1.7112705000000688
+      },
+      "10": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 330.6244988125,
+          "median": 330.0159165
+        },
+        "Reveal": {
+          "mean": 328.3468750625,
+          "median": 328.364458
+        },
+        "Public": {
+          "mean": 314.64488153125,
+          "median": 314.2938335
+        },
+        "mean:Publisher-Public": 15.97961728125,
+        "mean:Reveal-Public": 13.701993531249968,
+        "mean:Reveal-Publisher": -2.277623750000032,
+        "median:Publisher-Public": 15.722082999999998,
+        "median:Reveal-Public": 14.070624500000008,
+        "median:Reveal-Publisher": -1.6514584999999897
+      },
+      "11": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 331.127683625,
+          "median": 325.83089600000005
+        },
+        "Public": {
+          "mean": 314.2066603125,
+          "median": 314.522
+        },
+        "Publisher": {
+          "mean": 326.88089709375,
+          "median": 327.18975
+        },
+        "mean:Publisher-Public": 12.674236781249988,
+        "mean:Reveal-Public": 16.921023312499983,
+        "mean:Reveal-Publisher": 4.246786531249995,
+        "median:Publisher-Public": 12.667750000000012,
+        "median:Reveal-Public": 11.308896000000061,
+        "median:Reveal-Publisher": -1.3588539999999512
+      },
+      "12": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 327.8953659375,
+          "median": 327.7165415
+        },
+        "Publisher": {
+          "mean": 329.595897125,
+          "median": 327.82014549999997
+        },
+        "Public": {
+          "mean": 315.411533875,
+          "median": 314.776479
+        },
+        "mean:Publisher-Public": 14.184363250000047,
+        "mean:Reveal-Public": 12.483832062500028,
+        "mean:Reveal-Publisher": -1.7005311875000189,
+        "median:Publisher-Public": 13.043666499999972,
+        "median:Reveal-Public": 12.94006250000001,
+        "median:Reveal-Publisher": -0.10360399999996162
+      }
+    },
+    "DEPTH-D13": {
+      "1": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 434.6124583125,
+          "median": 433.886354
+        },
+        "Public": {
+          "mean": 329.633846375,
+          "median": 327.760354
+        },
+        "Publisher": {
+          "mean": 443.7988684375,
+          "median": 435.78508350000004
+        },
+        "mean:Publisher-Public": 114.16502206249999,
+        "mean:Reveal-Public": 104.97861193749998,
+        "mean:Reveal-Publisher": -9.186410125000009,
+        "median:Publisher-Public": 108.02472950000003,
+        "median:Reveal-Public": 106.12599999999998,
+        "median:Reveal-Publisher": -1.8987295000000586
+      },
+      "2": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 440.7529999375,
+          "median": 434.9183955
+        },
+        "Publisher": {
+          "mean": 437.40656503125,
+          "median": 434.76631249999997
+        },
+        "Public": {
+          "mean": 326.45908853125,
+          "median": 325.766625
+        },
+        "mean:Publisher-Public": 110.9474765,
+        "mean:Reveal-Public": 114.29391140625,
+        "mean:Reveal-Publisher": 3.3464349062500105,
+        "median:Publisher-Public": 108.9996875,
+        "median:Reveal-Public": 109.1517705,
+        "median:Reveal-Publisher": 0.15208300000000463
+      },
+      "3": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 327.86210428125,
+          "median": 327.466875
+        },
+        "Publisher": {
+          "mean": 437.1551068125,
+          "median": 433.0795625
+        },
+        "Reveal": {
+          "mean": 435.678243375,
+          "median": 435.371979
+        },
+        "mean:Publisher-Public": 109.29300253124995,
+        "mean:Reveal-Public": 107.81613909375,
+        "mean:Reveal-Publisher": -1.4768634374999579,
+        "median:Publisher-Public": 105.61268749999999,
+        "median:Reveal-Public": 107.905104,
+        "median:Reveal-Publisher": 2.2924165000000016
+      },
+      "4": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 327.37241153125,
+          "median": 326.16075
+        },
+        "Reveal": {
+          "mean": 435.43857940624997,
+          "median": 434.2075
+        },
+        "Publisher": {
+          "mean": 438.0822083125,
+          "median": 433.901729
+        },
+        "mean:Publisher-Public": 110.70979678124996,
+        "mean:Reveal-Public": 108.06616787499996,
+        "mean:Reveal-Publisher": -2.643628906250001,
+        "median:Publisher-Public": 107.74097899999998,
+        "median:Reveal-Public": 108.04674999999997,
+        "median:Reveal-Publisher": 0.3057709999999929
+      },
+      "5": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 436.4455975625,
+          "median": 434.16970849999996
+        },
+        "Public": {
+          "mean": 333.290224,
+          "median": 327.615313
+        },
+        "Reveal": {
+          "mean": 435.40442059375,
+          "median": 434.6428545
+        },
+        "mean:Publisher-Public": 103.15537356249996,
+        "mean:Reveal-Public": 102.11419659374997,
+        "mean:Reveal-Publisher": -1.041176968749994,
+        "median:Publisher-Public": 106.55439549999994,
+        "median:Reveal-Public": 107.02754149999998,
+        "median:Reveal-Publisher": 0.4731460000000425
+      },
+      "6": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 436.22133203125,
+          "median": 435.2560625
+        },
+        "Reveal": {
+          "mean": 435.94168621875,
+          "median": 433.714604
+        },
+        "Public": {
+          "mean": 329.11547009375,
+          "median": 326.045687
+        },
+        "mean:Publisher-Public": 107.10586193749998,
+        "mean:Reveal-Public": 106.82621612500003,
+        "mean:Reveal-Publisher": -0.27964581249995035,
+        "median:Publisher-Public": 109.2103755,
+        "median:Reveal-Public": 107.66891700000002,
+        "median:Reveal-Publisher": -1.541458499999976
+      },
+      "7": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 435.056608,
+          "median": 433.96527050000003
+        },
+        "Public": {
+          "mean": 329.0928685,
+          "median": 326.641146
+        },
+        "Publisher": {
+          "mean": 434.38149096875,
+          "median": 434.07675
+        },
+        "mean:Publisher-Public": 105.28862246874996,
+        "mean:Reveal-Public": 105.96373949999997,
+        "mean:Reveal-Publisher": 0.6751170312500108,
+        "median:Publisher-Public": 107.43560400000001,
+        "median:Reveal-Public": 107.32412450000004,
+        "median:Reveal-Publisher": -0.11147949999997309
+      },
+      "8": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 435.76810540625,
+          "median": 435.01770799999997
+        },
+        "Publisher": {
+          "mean": 438.7735833125,
+          "median": 435.281958
+        },
+        "Public": {
+          "mean": 326.803119625,
+          "median": 324.16335399999997
+        },
+        "mean:Publisher-Public": 111.9704636875,
+        "mean:Reveal-Public": 108.96498578125,
+        "mean:Reveal-Publisher": -3.0054779062500074,
+        "median:Publisher-Public": 111.118604,
+        "median:Reveal-Public": 110.854354,
+        "median:Reveal-Publisher": -0.2642500000000041
+      },
+      "9": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 327.9646445625,
+          "median": 327.35193749999996
+        },
+        "Publisher": {
+          "mean": 437.088029875,
+          "median": 435.10699999999997
+        },
+        "Reveal": {
+          "mean": 434.53113665625,
+          "median": 434.758333
+        },
+        "mean:Publisher-Public": 109.12338531250003,
+        "mean:Reveal-Public": 106.56649209375001,
+        "mean:Reveal-Publisher": -2.5568932187500195,
+        "median:Publisher-Public": 107.75506250000001,
+        "median:Reveal-Public": 107.40639550000003,
+        "median:Reveal-Publisher": -0.34866699999997763
+      },
+      "10": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 326.5975560625,
+          "median": 325.4923125
+        },
+        "Reveal": {
+          "mean": 444.26093878125,
+          "median": 436.60889549999996
+        },
+        "Publisher": {
+          "mean": 437.372343875,
+          "median": 433.183396
+        },
+        "mean:Publisher-Public": 110.7747878125,
+        "mean:Reveal-Public": 117.66338271874997,
+        "mean:Reveal-Publisher": 6.888594906249978,
+        "median:Publisher-Public": 107.69108349999999,
+        "median:Reveal-Public": 111.11658299999993,
+        "median:Reveal-Publisher": 3.425499499999944
+      },
+      "11": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 437.86721878125,
+          "median": 436.688354
+        },
+        "Public": {
+          "mean": 327.71498559375,
+          "median": 326.1911665
+        },
+        "Reveal": {
+          "mean": 442.9086210625,
+          "median": 433.7944165
+        },
+        "mean:Publisher-Public": 110.15223318750003,
+        "mean:Reveal-Public": 115.19363546875002,
+        "mean:Reveal-Publisher": 5.041402281249987,
+        "median:Publisher-Public": 110.4971875,
+        "median:Reveal-Public": 107.60325,
+        "median:Reveal-Publisher": -2.8939374999999927
+      },
+      "12": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 442.67765109375,
+          "median": 435.33574999999996
+        },
+        "Reveal": {
+          "mean": 441.26557953125,
+          "median": 436.69991699999997
+        },
+        "Public": {
+          "mean": 327.326057375,
+          "median": 328.038271
+        },
+        "mean:Publisher-Public": 115.35159371875,
+        "mean:Reveal-Public": 113.93952215625,
+        "mean:Reveal-Publisher": -1.4120715624999889,
+        "median:Publisher-Public": 107.29747899999995,
+        "median:Reveal-Public": 108.66164599999996,
+        "median:Reveal-Publisher": 1.364167000000009
+      }
+    },
+    "DEPTH-D16": {
+      "1": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 470.20629946875,
+          "median": 465.476479
+        },
+        "Public": {
+          "mean": 455.58410171875,
+          "median": 454.1810005
+        },
+        "Publisher": {
+          "mean": 466.48010946875,
+          "median": 466.39779150000004
+        },
+        "mean:Publisher-Public": 10.896007750000024,
+        "mean:Reveal-Public": 14.622197749999998,
+        "mean:Reveal-Publisher": 3.726189999999974,
+        "median:Publisher-Public": 12.216791000000057,
+        "median:Reveal-Public": 11.295478500000002,
+        "median:Reveal-Publisher": -0.9213125000000559
+      },
+      "2": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 471.34104425,
+          "median": 467.96387500000003
+        },
+        "Publisher": {
+          "mean": 471.95825775000003,
+          "median": 468.8563335
+        },
+        "Public": {
+          "mean": 465.30182175,
+          "median": 458.3210005
+        },
+        "mean:Publisher-Public": 6.656436000000042,
+        "mean:Reveal-Public": 6.039222499999994,
+        "mean:Reveal-Publisher": -0.617213500000048,
+        "median:Publisher-Public": 10.53533299999998,
+        "median:Reveal-Public": 9.642874500000005,
+        "median:Reveal-Publisher": -0.8924584999999752
+      },
+      "3": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 468.56513546875,
+          "median": 459.1682085
+        },
+        "Publisher": {
+          "mean": 475.67270840625,
+          "median": 469.03727100000003
+        },
+        "Reveal": {
+          "mean": 469.3923984375,
+          "median": 468.662833
+        },
+        "mean:Publisher-Public": 7.107572937500038,
+        "mean:Reveal-Public": 0.8272629687500057,
+        "mean:Reveal-Publisher": -6.280309968750032,
+        "median:Publisher-Public": 9.869062500000041,
+        "median:Reveal-Public": 9.494624499999986,
+        "median:Reveal-Publisher": -0.37443800000005467
+      },
+      "4": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 458.42873571875,
+          "median": 455.792396
+        },
+        "Reveal": {
+          "mean": 489.39107290625003,
+          "median": 465.044333
+        },
+        "Publisher": {
+          "mean": 467.85947271875,
+          "median": 466.7905415
+        },
+        "mean:Publisher-Public": 9.430737000000022,
+        "mean:Reveal-Public": 30.962337187500054,
+        "mean:Reveal-Publisher": 21.531600187500032,
+        "median:Publisher-Public": 10.998145500000021,
+        "median:Reveal-Public": 9.251936999999998,
+        "median:Reveal-Publisher": -1.746208500000023
+      },
+      "5": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 469.5928685,
+          "median": 467.04454150000004
+        },
+        "Public": {
+          "mean": 458.60042184375004,
+          "median": 458.1626665
+        },
+        "Reveal": {
+          "mean": 471.91640228125,
+          "median": 467.3815415
+        },
+        "mean:Publisher-Public": 10.992446656249967,
+        "mean:Reveal-Public": 13.315980437499945,
+        "mean:Reveal-Publisher": 2.323533781249978,
+        "median:Publisher-Public": 8.881875000000036,
+        "median:Reveal-Public": 9.218875000000025,
+        "median:Reveal-Publisher": 0.3369999999999891
+      },
+      "6": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 472.71875903125,
+          "median": 465.40172900000005
+        },
+        "Reveal": {
+          "mean": 466.561985625,
+          "median": 464.988083
+        },
+        "Public": {
+          "mean": 458.91119009375,
+          "median": 457.07981300000006
+        },
+        "mean:Publisher-Public": 13.80756893749998,
+        "mean:Reveal-Public": 7.650795531249969,
+        "mean:Reveal-Publisher": -6.156773406250011,
+        "median:Publisher-Public": 8.321915999999987,
+        "median:Reveal-Public": 7.908269999999959,
+        "median:Reveal-Publisher": -0.4136460000000284
+      },
+      "7": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 468.36080865625,
+          "median": 466.99793750000003
+        },
+        "Public": {
+          "mean": 459.2882448125,
+          "median": 456.74681300000003
+        },
+        "Publisher": {
+          "mean": 472.644659,
+          "median": 467.00874999999996
+        },
+        "mean:Publisher-Public": 13.356414187499979,
+        "mean:Reveal-Public": 9.072563843750004,
+        "mean:Reveal-Publisher": -4.283850343749975,
+        "median:Publisher-Public": 10.261936999999932,
+        "median:Reveal-Public": 10.251124500000003,
+        "median:Reveal-Publisher": -0.01081249999992906
+      },
+      "8": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 469.0395924375,
+          "median": 466.2968335
+        },
+        "Publisher": {
+          "mean": 471.73585684375,
+          "median": 468.204792
+        },
+        "Public": {
+          "mean": 473.7474480625,
+          "median": 457.59025
+        },
+        "mean:Publisher-Public": -2.0115912187499703,
+        "mean:Reveal-Public": -4.707855624999979,
+        "mean:Reveal-Publisher": -2.696264406250009,
+        "median:Publisher-Public": 10.614541999999972,
+        "median:Reveal-Public": 8.706583499999965,
+        "median:Reveal-Publisher": -1.9079585000000066
+      },
+      "9": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 458.75001815625,
+          "median": 455.47891649999997
+        },
+        "Publisher": {
+          "mean": 491.33979934375,
+          "median": 467.68085399999995
+        },
+        "Reveal": {
+          "mean": 471.42950259375,
+          "median": 467.570958
+        },
+        "mean:Publisher-Public": 32.589781187499966,
+        "mean:Reveal-Public": 12.67948443749998,
+        "mean:Reveal-Publisher": -19.910296749999986,
+        "median:Publisher-Public": 12.201937499999985,
+        "median:Reveal-Public": 12.09204150000005,
+        "median:Reveal-Publisher": -0.10989599999993516
+      },
+      "10": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 458.73921743750003,
+          "median": 455.524083
+        },
+        "Reveal": {
+          "mean": 470.06772521875,
+          "median": 468.534083
+        },
+        "Publisher": {
+          "mean": 467.11191021875,
+          "median": 465.89608350000003
+        },
+        "mean:Publisher-Public": 8.372692781249953,
+        "mean:Reveal-Public": 11.328507781249982,
+        "mean:Reveal-Publisher": 2.9558150000000296,
+        "median:Publisher-Public": 10.372000500000013,
+        "median:Reveal-Public": 13.009999999999991,
+        "median:Reveal-Publisher": 2.637999499999978
+      },
+      "11": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 473.52555206249997,
+          "median": 468.34166700000003
+        },
+        "Public": {
+          "mean": 458.68100528125,
+          "median": 457.222042
+        },
+        "Reveal": {
+          "mean": 466.6722240625,
+          "median": 465.8481875
+        },
+        "mean:Publisher-Public": 14.84454678124996,
+        "mean:Reveal-Public": 7.991218781249984,
+        "mean:Reveal-Publisher": -6.853327999999976,
+        "median:Publisher-Public": 11.119625000000042,
+        "median:Reveal-Public": 8.626145500000007,
+        "median:Reveal-Publisher": -2.493479500000035
+      },
+      "12": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 475.88247793749997,
+          "median": 467.9299585
+        },
+        "Reveal": {
+          "mean": 470.2005351875,
+          "median": 467.0273755
+        },
+        "Public": {
+          "mean": 459.83745309375,
+          "median": 456.7761875
+        },
+        "mean:Publisher-Public": 16.045024843749957,
+        "mean:Reveal-Public": 10.363082093749995,
+        "mean:Reveal-Publisher": -5.681942749999962,
+        "median:Publisher-Public": 11.153771000000006,
+        "median:Reveal-Public": 10.251188000000013,
+        "median:Reveal-Publisher": -0.9025829999999928
+      }
+    },
+    "DEPTH-D20": {
+      "1": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 495.9502955625,
+          "median": 496.20214599999997
+        },
+        "Reveal": {
+          "mean": 513.41391915625,
+          "median": 510.538229
+        },
+        "Publisher": {
+          "mean": 510.62410290625,
+          "median": 507.0711255
+        },
+        "mean:Publisher-Public": 14.673807343750013,
+        "mean:Reveal-Public": 17.463623593750015,
+        "mean:Reveal-Publisher": 2.789816250000001,
+        "median:Publisher-Public": 10.868979500000023,
+        "median:Reveal-Public": 14.33608300000003,
+        "median:Reveal-Publisher": 3.4671035000000074
+      },
+      "2": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 508.43714184375,
+          "median": 508.0851665
+        },
+        "Public": {
+          "mean": 498.05100528125,
+          "median": 497.2265205
+        },
+        "Reveal": {
+          "mean": 509.86453509375,
+          "median": 508.96118749999994
+        },
+        "mean:Publisher-Public": 10.386136562499985,
+        "mean:Reveal-Public": 11.813529812500008,
+        "mean:Reveal-Publisher": 1.4273932500000228,
+        "median:Publisher-Public": 10.858646000000022,
+        "median:Reveal-Public": 11.734666999999945,
+        "median:Reveal-Publisher": 0.8760209999999233
+      },
+      "3": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 514.76389440625,
+          "median": 508.20924950000006
+        },
+        "Reveal": {
+          "mean": 511.42734375,
+          "median": 508.744271
+        },
+        "Public": {
+          "mean": 501.26782421875,
+          "median": 497.8281455
+        },
+        "mean:Publisher-Public": 13.496070187499981,
+        "mean:Reveal-Public": 10.159519531249998,
+        "mean:Reveal-Publisher": -3.336550656249983,
+        "median:Publisher-Public": 10.38110400000005,
+        "median:Reveal-Public": 10.916125500000021,
+        "median:Reveal-Publisher": 0.5350214999999707
+      },
+      "4": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 510.52716671875,
+          "median": 507.7733125
+        },
+        "Public": {
+          "mean": 503.76976171875,
+          "median": 500.2081455
+        },
+        "Publisher": {
+          "mean": 510.67735028125,
+          "median": 508.44935399999997
+        },
+        "mean:Publisher-Public": 6.907588562500052,
+        "mean:Reveal-Public": 6.757405000000006,
+        "mean:Reveal-Publisher": -0.15018356250004672,
+        "median:Publisher-Public": 8.24120849999997,
+        "median:Reveal-Public": 7.565166999999974,
+        "median:Reveal-Publisher": -0.6760414999999966
+      },
+      "5": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 512.37934896875,
+          "median": 507.1457915
+        },
+        "Publisher": {
+          "mean": 516.3110233125,
+          "median": 508.225625
+        },
+        "Public": {
+          "mean": 521.34037640625,
+          "median": 497.7157085
+        },
+        "mean:Publisher-Public": -5.029353093750046,
+        "mean:Reveal-Public": -8.961027437499979,
+        "mean:Reveal-Publisher": -3.9316743437499326,
+        "median:Publisher-Public": 10.509916499999974,
+        "median:Reveal-Public": 9.430082999999968,
+        "median:Reveal-Publisher": -1.0798335000000066
+      },
+      "6": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 506.37131775,
+          "median": 499.6303125
+        },
+        "Publisher": {
+          "mean": 511.825333375,
+          "median": 508.31925
+        },
+        "Reveal": {
+          "mean": 510.174760375,
+          "median": 508.0956665
+        },
+        "mean:Publisher-Public": 5.454015625000011,
+        "mean:Reveal-Public": 3.8034426250000024,
+        "mean:Reveal-Publisher": -1.6505730000000085,
+        "median:Publisher-Public": 8.688937500000009,
+        "median:Reveal-Public": 8.46535399999999,
+        "median:Reveal-Publisher": -0.22358350000001792
+      },
+      "7": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 499.2903371875,
+          "median": 497.0743545
+        },
+        "Reveal": {
+          "mean": 508.61265884375,
+          "median": 508.31802100000004
+        },
+        "Publisher": {
+          "mean": 512.66967578125,
+          "median": 509.7784375
+        },
+        "mean:Publisher-Public": 13.379338593750049,
+        "mean:Reveal-Public": 9.32232165625004,
+        "mean:Reveal-Publisher": -4.057016937500009,
+        "median:Publisher-Public": 12.704082999999969,
+        "median:Reveal-Public": 11.243666500000018,
+        "median:Reveal-Publisher": -1.4604164999999512
+      },
+      "8": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 510.23735815625,
+          "median": 509.39606249999997
+        },
+        "Public": {
+          "mean": 507.093319125,
+          "median": 499.161625
+        },
+        "Reveal": {
+          "mean": 509.54771225,
+          "median": 506.6005205
+        },
+        "mean:Publisher-Public": 3.1440390312500313,
+        "mean:Reveal-Public": 2.454393125000024,
+        "mean:Reveal-Publisher": -0.6896459062500071,
+        "median:Publisher-Public": 10.234437499999956,
+        "median:Reveal-Public": 7.438895500000001,
+        "median:Reveal-Publisher": -2.795541999999955
+      },
+      "9": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 508.5499375625,
+          "median": 507.9061875
+        },
+        "Reveal": {
+          "mean": 507.0986236875,
+          "median": 507.544833
+        },
+        "Public": {
+          "mean": 498.3297551875,
+          "median": 497.378291
+        },
+        "mean:Publisher-Public": 10.220182375000036,
+        "mean:Reveal-Public": 8.768868499999996,
+        "mean:Reveal-Publisher": -1.4513138750000394,
+        "median:Publisher-Public": 10.527896499999997,
+        "median:Reveal-Public": 10.166541999999993,
+        "median:Reveal-Publisher": -0.36135450000000446
+      },
+      "10": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 507.00229953125,
+          "median": 505.592896
+        },
+        "Public": {
+          "mean": 500.07607037500003,
+          "median": 497.5035835
+        },
+        "Publisher": {
+          "mean": 517.5449375000001,
+          "median": 510.23837449999996
+        },
+        "mean:Publisher-Public": 17.46886712500003,
+        "mean:Reveal-Public": 6.926229156249974,
+        "mean:Reveal-Publisher": -10.542637968750057,
+        "median:Publisher-Public": 12.734790999999973,
+        "median:Reveal-Public": 8.089312500000005,
+        "median:Reveal-Publisher": -4.645478499999967
+      },
+      "11": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 516.9160156875,
+          "median": 515.431604
+        },
+        "Publisher": {
+          "mean": 509.281427125,
+          "median": 507.806062
+        },
+        "Public": {
+          "mean": 500.93842709375,
+          "median": 497.5801665
+        },
+        "mean:Publisher-Public": 8.343000031249971,
+        "mean:Reveal-Public": 15.97758859375,
+        "mean:Reveal-Publisher": 7.634588562500028,
+        "median:Publisher-Public": 10.225895499999979,
+        "median:Reveal-Public": 17.851437499999975,
+        "median:Reveal-Publisher": 7.625541999999996
+      },
+      "12": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 499.22835425,
+          "median": 497.940938
+        },
+        "Publisher": {
+          "mean": 510.5467330625,
+          "median": 508.1052085
+        },
+        "Reveal": {
+          "mean": 514.61768615625,
+          "median": 509.77612500000004
+        },
+        "mean:Publisher-Public": 11.318378812499986,
+        "mean:Reveal-Public": 15.389331906249993,
+        "mean:Reveal-Publisher": 4.070953093750006,
+        "median:Publisher-Public": 10.164270499999986,
+        "median:Reveal-Public": 11.835187000000019,
+        "median:Reveal-Publisher": 1.6709165000000326
+      }
+    },
+    "CAND-C02": {
+      "1": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 303.393540375,
+          "median": 302.47083349999997
+        },
+        "Public": {
+          "mean": 294.269197875,
+          "median": 293.19331250000005
+        },
+        "Publisher": {
+          "mean": 304.7579830625,
+          "median": 304.279354
+        },
+        "mean:Publisher-Public": 10.488785187500014,
+        "mean:Reveal-Public": 9.124342500000012,
+        "mean:Reveal-Publisher": -1.3644426875000022,
+        "median:Publisher-Public": 11.086041499999965,
+        "median:Reveal-Public": 9.277520999999922,
+        "median:Reveal-Publisher": -1.8085205000000428
+      },
+      "2": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 309.67690090625,
+          "median": 303.4235625
+        },
+        "Publisher": {
+          "mean": 304.2193984375,
+          "median": 303.483104
+        },
+        "Public": {
+          "mean": 313.60015384375,
+          "median": 291.809667
+        },
+        "mean:Publisher-Public": -9.380755406249989,
+        "mean:Reveal-Public": -3.923252937499967,
+        "mean:Reveal-Publisher": 5.457502468750022,
+        "median:Publisher-Public": 11.673437000000035,
+        "median:Reveal-Public": 11.613895500000012,
+        "median:Reveal-Publisher": -0.05954150000002301
+      },
+      "3": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 293.6482043125,
+          "median": 293.7114165
+        },
+        "Publisher": {
+          "mean": 306.82490740625,
+          "median": 304.74991700000004
+        },
+        "Reveal": {
+          "mean": 303.8412031875,
+          "median": 303.2589165
+        },
+        "mean:Publisher-Public": 13.176703093750007,
+        "mean:Reveal-Public": 10.192998875,
+        "mean:Reveal-Publisher": -2.983704218750006,
+        "median:Publisher-Public": 11.038500500000055,
+        "median:Reveal-Public": 9.547500000000014,
+        "median:Reveal-Publisher": -1.491000500000041
+      },
+      "4": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 293.00923696875,
+          "median": 291.6735
+        },
+        "Reveal": {
+          "mean": 303.3866379375,
+          "median": 302.2894585
+        },
+        "Publisher": {
+          "mean": 308.35309374999997,
+          "median": 304.01939600000003
+        },
+        "mean:Publisher-Public": 15.343856781249997,
+        "mean:Reveal-Public": 10.37740096875001,
+        "mean:Reveal-Publisher": -4.966455812499987,
+        "median:Publisher-Public": 12.345896000000039,
+        "median:Reveal-Public": 10.615958500000033,
+        "median:Reveal-Publisher": -1.7299375000000055
+      },
+      "5": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 304.31147275,
+          "median": 304.265813
+        },
+        "Public": {
+          "mean": 297.46132024999997,
+          "median": 294.4868955
+        },
+        "Reveal": {
+          "mean": 305.953790375,
+          "median": 303.1907705
+        },
+        "mean:Publisher-Public": 6.850152500000036,
+        "mean:Reveal-Public": 8.492470125000011,
+        "mean:Reveal-Publisher": 1.6423176249999756,
+        "median:Publisher-Public": 9.778917499999977,
+        "median:Reveal-Public": 8.703874999999982,
+        "median:Reveal-Publisher": -1.075042499999995
+      },
+      "6": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 303.16606646875,
+          "median": 302.351958
+        },
+        "Reveal": {
+          "mean": 305.6688620625,
+          "median": 302.763625
+        },
+        "Public": {
+          "mean": 295.09898703125,
+          "median": 291.86827100000005
+        },
+        "mean:Publisher-Public": 8.067079437500013,
+        "mean:Reveal-Public": 10.569875031250035,
+        "mean:Reveal-Publisher": 2.5027955937500224,
+        "median:Publisher-Public": 10.483686999999975,
+        "median:Reveal-Public": 10.89535399999994,
+        "median:Reveal-Publisher": 0.4116669999999658
+      }
+    },
+    "CAND-C08": {
+      "1": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 297.383841125,
+          "median": 292.7704995
+        },
+        "Publisher": {
+          "mean": 303.49740878125,
+          "median": 303.2427085
+        },
+        "Reveal": {
+          "mean": 307.669765625,
+          "median": 303.982271
+        },
+        "mean:Publisher-Public": 6.113567656249984,
+        "mean:Reveal-Public": 10.285924500000021,
+        "mean:Reveal-Publisher": 4.172356843750038,
+        "median:Publisher-Public": 10.472208999999964,
+        "median:Reveal-Public": 11.211771499999998,
+        "median:Reveal-Publisher": 0.7395625000000337
+      },
+      "2": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 294.288414,
+          "median": 291.9331245
+        },
+        "Reveal": {
+          "mean": 313.64951303125,
+          "median": 305.2201255
+        },
+        "Publisher": {
+          "mean": 304.2646653125,
+          "median": 303.471479
+        },
+        "mean:Publisher-Public": 9.976251312499983,
+        "mean:Reveal-Public": 19.361099031250035,
+        "mean:Reveal-Publisher": 9.384847718750052,
+        "median:Publisher-Public": 11.538354499999969,
+        "median:Reveal-Public": 13.287000999999975,
+        "median:Reveal-Publisher": 1.7486465000000067
+      },
+      "3": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 304.41058071875,
+          "median": 303.521479
+        },
+        "Public": {
+          "mean": 291.78992053125,
+          "median": 291.6141665
+        },
+        "Reveal": {
+          "mean": 306.4289675,
+          "median": 305.3133125
+        },
+        "mean:Publisher-Public": 12.620660187499993,
+        "mean:Reveal-Public": 14.639046968749994,
+        "mean:Reveal-Publisher": 2.018386781250001,
+        "median:Publisher-Public": 11.907312499999989,
+        "median:Reveal-Public": 13.699145999999985,
+        "median:Reveal-Publisher": 1.7918334999999956
+      },
+      "4": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 306.85137896875,
+          "median": 303.548542
+        },
+        "Reveal": {
+          "mean": 309.07667065625003,
+          "median": 306.3003955
+        },
+        "Public": {
+          "mean": 292.85077206249997,
+          "median": 291.9341455
+        },
+        "mean:Publisher-Public": 14.000606906250027,
+        "mean:Reveal-Public": 16.22589859375006,
+        "mean:Reveal-Publisher": 2.2252916875000324,
+        "median:Publisher-Public": 11.614396499999998,
+        "median:Reveal-Public": 14.36624999999998,
+        "median:Reveal-Publisher": 2.7518534999999815
+      },
+      "5": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 302.5032435,
+          "median": 301.591187
+        },
+        "Public": {
+          "mean": 298.757164,
+          "median": 291.86552100000006
+        },
+        "Publisher": {
+          "mean": 304.51118228125,
+          "median": 303.9414375
+        },
+        "mean:Publisher-Public": 5.754018281250012,
+        "mean:Reveal-Public": 3.7460795000000076,
+        "mean:Reveal-Publisher": -2.0079387812500045,
+        "median:Publisher-Public": 12.075916499999948,
+        "median:Reveal-Public": 9.725665999999933,
+        "median:Reveal-Publisher": -2.3502505000000156
+      },
+      "6": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 306.15500903125,
+          "median": 304.11279149999996
+        },
+        "Publisher": {
+          "mean": 303.5769699375,
+          "median": 302.20254150000005
+        },
+        "Public": {
+          "mean": 295.12781384375,
+          "median": 292.5250205
+        },
+        "mean:Publisher-Public": 8.449156093749991,
+        "mean:Reveal-Public": 11.027195187500013,
+        "mean:Reveal-Publisher": 2.5780390937500215,
+        "median:Publisher-Public": 9.67752100000007,
+        "median:Reveal-Public": 11.587770999999975,
+        "median:Reveal-Publisher": 1.9102499999999054
+      }
+    },
+    "SCALE-B0128": {
+      "1": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 458.1258408125,
+          "median": 457.1855625
+        },
+        "Reveal": {
+          "mean": 473.9510723203125,
+          "median": 466.9456875
+        },
+        "Publisher": {
+          "mean": 469.40880046093747,
+          "median": 466.798875
+        },
+        "mean:Publisher-Public": 11.282959648437497,
+        "mean:Reveal-Public": 15.825231507812532,
+        "mean:Reveal-Publisher": 4.542271859375035,
+        "median:Publisher-Public": 9.613312500000006,
+        "median:Reveal-Public": 9.760125000000016,
+        "median:Reveal-Publisher": 0.14681250000001
+      },
+      "2": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 470.636465140625,
+          "median": 467.4648335
+        },
+        "Public": {
+          "mean": 460.6957679140625,
+          "median": 457.139729
+        },
+        "Reveal": {
+          "mean": 467.6803131171875,
+          "median": 465.57118749999995
+        },
+        "mean:Publisher-Public": 9.940697226562463,
+        "mean:Reveal-Public": 6.984545203124981,
+        "mean:Reveal-Publisher": -2.9561520234374825,
+        "median:Publisher-Public": 10.325104500000009,
+        "median:Reveal-Public": 8.431458499999962,
+        "median:Reveal-Publisher": -1.8936460000000466
+      },
+      "3": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 468.5910111171875,
+          "median": 466.5974165
+        },
+        "Reveal": {
+          "mean": 471.0648984609375,
+          "median": 466.97825
+        },
+        "Public": {
+          "mean": 459.9313919609375,
+          "median": 456.467167
+        },
+        "mean:Publisher-Public": 8.659619156250017,
+        "mean:Reveal-Public": 11.13350650000001,
+        "mean:Reveal-Publisher": 2.4738873437499933,
+        "median:Publisher-Public": 10.13024949999999,
+        "median:Reveal-Public": 10.511082999999985,
+        "median:Reveal-Publisher": 0.3808334999999943
+      },
+      "4": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 473.894377265625,
+          "median": 465.848792
+        },
+        "Public": {
+          "mean": 458.725022453125,
+          "median": 456.436958
+        },
+        "Publisher": {
+          "mean": 472.328708671875,
+          "median": 467.8063125
+        },
+        "mean:Publisher-Public": 13.60368621875,
+        "mean:Reveal-Public": 15.16935481249999,
+        "mean:Reveal-Publisher": 1.5656685937499901,
+        "median:Publisher-Public": 11.369354499999986,
+        "median:Reveal-Public": 9.411833999999999,
+        "median:Reveal-Publisher": -1.957520499999987
+      },
+      "5": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 468.46154528125,
+          "median": 466.36766650000004
+        },
+        "Publisher": {
+          "mean": 468.730452859375,
+          "median": 466.15666699999997
+        },
+        "Public": {
+          "mean": 458.34626946875,
+          "median": 456.318396
+        },
+        "mean:Publisher-Public": 10.384183390625026,
+        "mean:Reveal-Public": 10.115275812499988,
+        "mean:Reveal-Publisher": -0.26890757812503807,
+        "median:Publisher-Public": 9.838270999999963,
+        "median:Reveal-Public": 10.049270500000034,
+        "median:Reveal-Publisher": 0.21099950000007084
+      },
+      "6": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 485.6031249921875,
+          "median": 460.744625
+        },
+        "Publisher": {
+          "mean": 476.8931016015625,
+          "median": 470.79733350000004
+        },
+        "Reveal": {
+          "mean": 468.540598328125,
+          "median": 466.102125
+        },
+        "mean:Publisher-Public": -8.710023390624997,
+        "mean:Reveal-Public": -17.06252666406249,
+        "mean:Reveal-Publisher": -8.352503273437492,
+        "median:Publisher-Public": 10.052708500000051,
+        "median:Reveal-Public": 5.357500000000016,
+        "median:Reveal-Publisher": -4.695208500000035
+      }
+    },
+    "SCALE-B0512": {
+      "1": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 478.56709902929686,
+          "median": 471.8940835
+        },
+        "Publisher": {
+          "mean": 502.3357635,
+          "median": 489.23860449999995
+        },
+        "Public": {
+          "mean": 497.9597517890625,
+          "median": 475.13522950000004
+        },
+        "mean:Publisher-Public": 4.376011710937462,
+        "mean:Reveal-Public": -19.392652759765667,
+        "mean:Reveal-Publisher": -23.76866447070313,
+        "median:Publisher-Public": 14.103374999999915,
+        "median:Reveal-Public": -3.2411460000000147,
+        "median:Reveal-Publisher": -17.34452099999993
+      },
+      "2": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 532.4230823007813,
+          "median": 499.765
+        },
+        "Publisher": {
+          "mean": 509.9426083808594,
+          "median": 490.1841665
+        },
+        "Reveal": {
+          "mean": 551.1609666347656,
+          "median": 513.844521
+        },
+        "mean:Publisher-Public": -22.480473919921906,
+        "mean:Reveal-Public": 18.73788433398431,
+        "mean:Reveal-Publisher": 41.21835825390622,
+        "median:Publisher-Public": -9.580833499999983,
+        "median:Reveal-Public": 14.079521,
+        "median:Reveal-Publisher": 23.660354499999983
+      },
+      "3": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 490.95375566992186,
+          "median": 475.44660450000003
+        },
+        "Reveal": {
+          "mean": 474.8101457304688,
+          "median": 467.3964795
+        },
+        "Publisher": {
+          "mean": 485.92015477929687,
+          "median": 467.9513545
+        },
+        "mean:Publisher-Public": -5.033600890624996,
+        "mean:Reveal-Public": -16.143609939453086,
+        "mean:Reveal-Publisher": -11.11000904882809,
+        "median:Publisher-Public": -7.4952500000000555,
+        "median:Reveal-Public": -8.050125000000037,
+        "median:Reveal-Publisher": -0.5548749999999814
+      },
+      "4": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 472.8575944277344,
+          "median": 467.567208
+        },
+        "Public": {
+          "mean": 460.3103754980469,
+          "median": 456.4919165
+        },
+        "Reveal": {
+          "mean": 471.89851150390626,
+          "median": 465.9095205
+        },
+        "mean:Publisher-Public": 12.547218929687517,
+        "mean:Reveal-Public": 11.588136005859383,
+        "mean:Reveal-Publisher": -0.9590829238281344,
+        "median:Publisher-Public": 11.075291499999992,
+        "median:Reveal-Public": 9.417603999999983,
+        "median:Reveal-Publisher": -1.6576875000000086
+      },
+      "5": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 468.10478189453124,
+          "median": 464.8302915
+        },
+        "Reveal": {
+          "mean": 469.88534913671873,
+          "median": 464.92641649999996
+        },
+        "Public": {
+          "mean": 456.6416237109375,
+          "median": 454.2398755
+        },
+        "mean:Publisher-Public": 11.463158183593748,
+        "mean:Reveal-Public": 13.243725425781236,
+        "mean:Reveal-Publisher": 1.7805672421874874,
+        "median:Publisher-Public": 10.590416000000005,
+        "median:Reveal-Public": 10.686540999999977,
+        "median:Reveal-Publisher": 0.09612499999997226
+      },
+      "6": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 469.7305096152344,
+          "median": 464.801375
+        },
+        "Public": {
+          "mean": 455.8074917578125,
+          "median": 454.284542
+        },
+        "Publisher": {
+          "mean": 467.3806041601562,
+          "median": 464.03397900000004
+        },
+        "mean:Publisher-Public": 11.573112402343725,
+        "mean:Reveal-Public": 13.923017857421883,
+        "mean:Reveal-Publisher": 2.349905455078158,
+        "median:Publisher-Public": 9.749437000000057,
+        "median:Reveal-Public": 10.51683300000002,
+        "median:Reveal-Publisher": 0.7673959999999624
+      }
+    },
+    "SCALE-B1024": {
+      "1": {
+        "order": {
+          "Publisher": 1,
+          "Public": 2,
+          "Reveal": 3
+        },
+        "Publisher": {
+          "mean": 469.1259520673828,
+          "median": 465.544542
+        },
+        "Public": {
+          "mean": 456.90328131738283,
+          "median": 454.564604
+        },
+        "Reveal": {
+          "mean": 468.18922139257813,
+          "median": 465.08545849999996
+        },
+        "mean:Publisher-Public": 12.222670749999963,
+        "mean:Reveal-Public": 11.285940075195299,
+        "mean:Reveal-Publisher": -0.9367306748046644,
+        "median:Publisher-Public": 10.979938000000004,
+        "median:Reveal-Public": 10.520854499999984,
+        "median:Reveal-Publisher": -0.45908350000001974
+      },
+      "2": {
+        "order": {
+          "Publisher": 1,
+          "Reveal": 2,
+          "Public": 3
+        },
+        "Publisher": {
+          "mean": 468.79672602929685,
+          "median": 465.2405205
+        },
+        "Reveal": {
+          "mean": 470.4211550644531,
+          "median": 465.0639375
+        },
+        "Public": {
+          "mean": 459.6766483173828,
+          "median": 456.0402505
+        },
+        "mean:Publisher-Public": 9.120077711914064,
+        "mean:Reveal-Public": 10.744506747070318,
+        "mean:Reveal-Publisher": 1.624429035156254,
+        "median:Publisher-Public": 9.200269999999989,
+        "median:Reveal-Public": 9.023686999999995,
+        "median:Reveal-Publisher": -0.17658299999999372
+      },
+      "3": {
+        "order": {
+          "Reveal": 1,
+          "Public": 2,
+          "Publisher": 3
+        },
+        "Reveal": {
+          "mean": 468.6892940527344,
+          "median": 465.1469375
+        },
+        "Public": {
+          "mean": 459.1215452294922,
+          "median": 454.4147295
+        },
+        "Publisher": {
+          "mean": 467.67866459472657,
+          "median": 464.741271
+        },
+        "mean:Publisher-Public": 8.557119365234371,
+        "mean:Reveal-Public": 9.567748823242198,
+        "mean:Reveal-Publisher": 1.010629458007827,
+        "median:Publisher-Public": 10.326541499999962,
+        "median:Reveal-Public": 10.732207999999957,
+        "median:Reveal-Publisher": 0.40566649999999527
+      },
+      "4": {
+        "order": {
+          "Reveal": 1,
+          "Publisher": 2,
+          "Public": 3
+        },
+        "Reveal": {
+          "mean": 472.5468492724609,
+          "median": 465.654041
+        },
+        "Publisher": {
+          "mean": 468.7667857666016,
+          "median": 465.37910400000004
+        },
+        "Public": {
+          "mean": 457.5610067578125,
+          "median": 454.8621875
+        },
+        "mean:Publisher-Public": 11.20577900878908,
+        "mean:Reveal-Public": 14.985842514648425,
+        "mean:Reveal-Publisher": 3.7800635058593457,
+        "median:Publisher-Public": 10.516916500000036,
+        "median:Reveal-Public": 10.791853500000002,
+        "median:Reveal-Publisher": 0.2749369999999658
+      },
+      "5": {
+        "order": {
+          "Public": 1,
+          "Publisher": 2,
+          "Reveal": 3
+        },
+        "Public": {
+          "mean": 458.2449144833984,
+          "median": 454.60554149999996
+        },
+        "Publisher": {
+          "mean": 467.9255232675781,
+          "median": 464.6487085
+        },
+        "Reveal": {
+          "mean": 467.82423790820314,
+          "median": 464.977979
+        },
+        "mean:Publisher-Public": 9.680608784179697,
+        "mean:Reveal-Public": 9.579323424804727,
+        "mean:Reveal-Publisher": -0.10128535937496963,
+        "median:Publisher-Public": 10.04316700000004,
+        "median:Reveal-Public": 10.372437500000046,
+        "median:Reveal-Publisher": 0.3292705000000069
+      },
+      "6": {
+        "order": {
+          "Public": 1,
+          "Reveal": 2,
+          "Publisher": 3
+        },
+        "Public": {
+          "mean": 462.5116048945313,
+          "median": 456.78027050000003
+        },
+        "Reveal": {
+          "mean": 473.5565574501953,
+          "median": 466.453458
+        },
+        "Publisher": {
+          "mean": 469.1728117734375,
+          "median": 466.268667
+        },
+        "mean:Publisher-Public": 6.661206878906228,
+        "mean:Reveal-Public": 11.044952555664054,
+        "mean:Reveal-Publisher": 4.383745676757826,
+        "median:Publisher-Public": 9.488396499999965,
+        "median:Reveal-Public": 9.673187499999983,
+        "median:Reveal-Publisher": 0.18479100000001836
+      }
+    }
+  }
+}

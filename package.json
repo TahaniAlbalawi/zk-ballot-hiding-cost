@@ -1,0 +1,41 @@
+{
+    "name": "zk-ballot-hiding-cost",
+    "version": "0.3.0",
+    "packageManager": "npm@10.9.0",
+    "private": true,
+    "description": "Circuits, contracts and measurement harness for 'What Does Hiding the Ballot Cost?': three zero-knowledge voting workflows on Ethereum",
+    "license": "MIT",
+    "workspaces": [
+        "contracts",
+        "circuits",
+        "scripts",
+        "evaluation"
+    ],
+    "scripts": {
+        "circuits:compile": "npm run compile --workspace=circuits",
+        "circuits:setup": "npm run setup --workspace=circuits",
+        "circuits:build": "npm run build --workspace=circuits",
+        "circuits:test": "node circuits/test/check_configuration_artifacts.mjs",
+        "contracts:compile": "npm run compile --workspace=contracts",
+        "contracts:test": "npm run test --workspace=contracts",
+        "contracts:node": "npm run node --workspace=contracts",
+        "scripts:test": "npm run test --workspace=scripts",
+        "typecheck": "npm run typecheck --workspace=scripts && npm run typecheck --workspace=evaluation",
+        "experiment": "tsx evaluation/v3/run_experiment.ts",
+        "analyze": "tsx evaluation/v3/analyze.ts",
+        "setup-electorate": "npm run setup-electorate --workspace=scripts",
+        "deploy": "npm run deploy --workspace=scripts",
+        "deploy-private": "npm run deploy-private --workspace=scripts",
+        "demo-cast": "npm run demo-cast --workspace=scripts",
+        "demo-cast-private": "npm run demo-cast-private --workspace=scripts",
+        "tally": "npm run tally --workspace=scripts",
+        "reveal": "npm run reveal --workspace=scripts"
+    },
+    "devDependencies": {
+        "tsx": "^4.7.0"
+    },
+    "engines": {
+        "node": "22.10.0",
+        "npm": "10.9.0"
+    }
+}

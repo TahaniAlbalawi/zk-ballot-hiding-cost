@@ -1,0 +1,17 @@
+{
+  "configuration_registry_version": "CMC-CONFIG-ARTIFACTS-v1",
+  "configurations": [
+    { "configuration_id": "D03-C04", "merkle_depth_d": 3, "candidate_count_c": 4 },
+    { "configuration_id": "D05-C04", "merkle_depth_d": 5, "candidate_count_c": 4 },
+    { "configuration_id": "D07-C04", "merkle_depth_d": 7, "candidate_count_c": 4 },
+    { "configuration_id": "D08-C04", "merkle_depth_d": 8, "candidate_count_c": 4 },
+    { "configuration_id": "D09-C04", "merkle_depth_d": 9, "candidate_count_c": 4 },
+    { "configuration_id": "D10-C02", "merkle_depth_d": 10, "candidate_count_c": 2 },
+    { "configuration_id": "D10-C04", "merkle_depth_d": 10, "candidate_count_c": 4 },
+    { "configuration_id": "D10-C08", "merkle_depth_d": 10, "candidate_count_c": 8 },
+    { "configuration_id": "D12-C04", "merkle_depth_d": 12, "candidate_count_c": 4 },
+    { "configuration_id": "D13-C04", "merkle_depth_d": 13, "candidate_count_c": 4 },
+    { "configuration_id": "D16-C04", "merkle_depth_d": 16, "candidate_count_c": 4 },
+    { "configuration_id": "D20-C04", "merkle_depth_d": 20, "candidate_count_c": 4 }
+  ]
+}

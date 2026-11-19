@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "ZKV-EXPERIMENT-DESIGN-v3",
+  "seed": "zkv-v0.3-pilot-2026-11-11",
+  "warmupProofs": 2,
+  "memorySamplesPerRun": 2,
+  "revealBatchSize": 32,
+  "cells": [
+    { "id": "P-D05", "family": "PILOT", "depth": 5, "candidates": 4, "electorate": 32, "ballots": 8, "blocks": 3 },
+    { "id": "P-D13", "family": "PILOT", "depth": 13, "candidates": 4, "electorate": 32, "ballots": 8, "blocks": 3 }
+  ]
+}

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this archive."
+title: "What Does Hiding the Ballot Cost? Code, data and artifacts"
+type: software
+version: "0.3.0"
+date-released: "2026-11-19"
+doi: "10.5281/zenodo.24368648"
+repository-code: "https://github.com/TahaniAlbalawi/zk-ballot-hiding-cost"
+license:
+  - MIT
+  - CC-BY-4.0
+authors:
+  - family-names: "Albalawi"
+    given-names: "Tahani"
+    affiliation: "Department of Computer Science, Imam Mohammad Ibn Saud Islamic University, Riyadh, Saudi Arabia"
+keywords:
+  - zero-knowledge proofs
+  - Groth16
+  - blockchain voting
+  - vote commitment
+  - Ethereum gas
+  - performance evaluation
+preferred-citation:
+  type: article
+  title: "What Does Hiding the Ballot Cost? Measuring and Modeling Commitment-Based Zero-Knowledge Voting on Ethereum"
+  authors:
+    - family-names: "Albalawi"
+      given-names: "Tahani"
+  journal: "Computers"
+  status: "in-preparation"

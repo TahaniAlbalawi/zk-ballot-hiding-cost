@@ -1,0 +1,48 @@
+[
+  {
+    "configuration": "D05-C04",
+    "depth": 5,
+    "candidates": 4,
+    "public": {
+      "wires": 3578,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 3570,
+      "domainSize": 4096,
+      "zkeyBytes": 1560552,
+      "wasmBytes": 1982683
+    },
+    "commitment": {
+      "wires": 4096,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 4087,
+      "domainSize": 4096,
+      "zkeyBytes": 1747696,
+      "wasmBytes": 1985939
+    }
+  },
+  {
+    "configuration": "D13-C04",
+    "depth": 13,
+    "candidates": 4,
+    "public": {
+      "wires": 7778,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 7762,
+      "domainSize": 8192,
+      "zkeyBytes": 3342344,
+      "wasmBytes": 2006397
+    },
+    "commitment": {
+      "wires": 8296,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 8279,
+      "domainSize": 16384,
+      "zkeyBytes": 4053776,
+      "wasmBytes": 2009730
+    }
+  }
+]

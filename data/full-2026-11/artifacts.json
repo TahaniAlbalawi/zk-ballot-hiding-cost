@@ -1,0 +1,209 @@
+[
+  {
+    "configuration": "D05-C04",
+    "depth": 5,
+    "candidates": 4,
+    "public": {
+      "wires": 3578,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 3570,
+      "domainSize": 4096,
+      "zkeyBytes": 1560552,
+      "wasmBytes": 1982683
+    },
+    "commitment": {
+      "wires": 4096,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 4087,
+      "domainSize": 4096,
+      "zkeyBytes": 1747696,
+      "wasmBytes": 1985939
+    }
+  },
+  {
+    "configuration": "D08-C04",
+    "depth": 8,
+    "candidates": 4,
+    "public": {
+      "wires": 5153,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 5142,
+      "domainSize": 8192,
+      "zkeyBytes": 2392564,
+      "wasmBytes": 1991755
+    },
+    "commitment": {
+      "wires": 5671,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 5659,
+      "domainSize": 8192,
+      "zkeyBytes": 2579708,
+      "wasmBytes": 1994967
+    }
+  },
+  {
+    "configuration": "D10-C04",
+    "depth": 10,
+    "candidates": 4,
+    "public": {
+      "wires": 6203,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 6190,
+      "domainSize": 8192,
+      "zkeyBytes": 2772476,
+      "wasmBytes": 1997559
+    },
+    "commitment": {
+      "wires": 6721,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 6707,
+      "domainSize": 8192,
+      "zkeyBytes": 2959620,
+      "wasmBytes": 2000813
+    }
+  },
+  {
+    "configuration": "D12-C04",
+    "depth": 12,
+    "candidates": 4,
+    "public": {
+      "wires": 7253,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 7238,
+      "domainSize": 8192,
+      "zkeyBytes": 3152388,
+      "wasmBytes": 2003398
+    },
+    "commitment": {
+      "wires": 7771,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 7755,
+      "domainSize": 8192,
+      "zkeyBytes": 3339532,
+      "wasmBytes": 2006652
+    }
+  },
+  {
+    "configuration": "D13-C04",
+    "depth": 13,
+    "candidates": 4,
+    "public": {
+      "wires": 7778,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 7762,
+      "domainSize": 8192,
+      "zkeyBytes": 3342344,
+      "wasmBytes": 2006397
+    },
+    "commitment": {
+      "wires": 8296,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 8279,
+      "domainSize": 16384,
+      "zkeyBytes": 4053776,
+      "wasmBytes": 2009730
+    }
+  },
+  {
+    "configuration": "D16-C04",
+    "depth": 16,
+    "candidates": 4,
+    "public": {
+      "wires": 9353,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 9334,
+      "domainSize": 16384,
+      "zkeyBytes": 4436500,
+      "wasmBytes": 2015292
+    },
+    "commitment": {
+      "wires": 9871,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 9851,
+      "domainSize": 16384,
+      "zkeyBytes": 4623644,
+      "wasmBytes": 2018553
+    }
+  },
+  {
+    "configuration": "D20-C04",
+    "depth": 20,
+    "candidates": 4,
+    "public": {
+      "wires": 11453,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 11430,
+      "domainSize": 16384,
+      "zkeyBytes": 5196324,
+      "wasmBytes": 2027236
+    },
+    "commitment": {
+      "wires": 11971,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 11947,
+      "domainSize": 16384,
+      "zkeyBytes": 5383468,
+      "wasmBytes": 2030342
+    }
+  },
+  {
+    "configuration": "D10-C02",
+    "depth": 10,
+    "candidates": 2,
+    "public": {
+      "wires": 6203,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 6190,
+      "domainSize": 8192,
+      "zkeyBytes": 2772476,
+      "wasmBytes": 1997559
+    },
+    "commitment": {
+      "wires": 6721,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 6707,
+      "domainSize": 8192,
+      "zkeyBytes": 2959620,
+      "wasmBytes": 2000813
+    }
+  },
+  {
+    "configuration": "D10-C08",
+    "depth": 10,
+    "candidates": 8,
+    "public": {
+      "wires": 6203,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 6190,
+      "domainSize": 8192,
+      "zkeyBytes": 2772476,
+      "wasmBytes": 1997559
+    },
+    "commitment": {
+      "wires": 6721,
+      "outputs": 0,
+      "publicInputs": 6,
+      "constraints": 6707,
+      "domainSize": 8192,
+      "zkeyBytes": 2959620,
+      "wasmBytes": 2000813
+    }
+  }
+]

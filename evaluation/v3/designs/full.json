@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "ZKV-EXPERIMENT-DESIGN-v3",
+  "seed": "zkv-v0.3-full-2026-11",
+  "warmupProofs": 2,
+  "memorySamplesPerRun": 3,
+  "revealBatchSize": 32,
+  "cells": [
+    { "id": "DEPTH-D05", "family": "DEPTH", "depth": 5, "candidates": 4, "electorate": 32, "ballots": 32, "blocks": 12 },
+    { "id": "DEPTH-D08", "family": "DEPTH", "depth": 8, "candidates": 4, "electorate": 32, "ballots": 32, "blocks": 12 },
+    { "id": "DEPTH-D10", "family": "DEPTH", "depth": 10, "candidates": 4, "electorate": 32, "ballots": 32, "blocks": 12 },
+    { "id": "DEPTH-D12", "family": "DEPTH", "depth": 12, "candidates": 4, "electorate": 32, "ballots": 32, "blocks": 12 },
+    { "id": "DEPTH-D13", "family": "DEPTH", "depth": 13, "candidates": 4, "electorate": 32, "ballots": 32, "blocks": 12 },
+    { "id": "DEPTH-D16", "family": "DEPTH", "depth": 16, "candidates": 4, "electorate": 32, "ballots": 32, "blocks": 12 },
+    { "id": "DEPTH-D20", "family": "DEPTH", "depth": 20, "candidates": 4, "electorate": 32, "ballots": 32, "blocks": 12 },
+    { "id": "CAND-C02", "family": "CANDIDATES", "depth": 10, "candidates": 2, "electorate": 32, "ballots": 32, "blocks": 6 },
+    { "id": "CAND-C08", "family": "CANDIDATES", "depth": 10, "candidates": 8, "electorate": 32, "ballots": 32, "blocks": 6 },
+    { "id": "SCALE-B0128", "family": "SCALE", "depth": 16, "candidates": 4, "electorate": 1024, "ballots": 128, "blocks": 6 },
+    { "id": "SCALE-B0512", "family": "SCALE", "depth": 16, "candidates": 4, "electorate": 1024, "ballots": 512, "blocks": 6 },
+    { "id": "SCALE-B1024", "family": "SCALE", "depth": 16, "candidates": 4, "electorate": 1024, "ballots": 1024, "blocks": 6 }
+  ]
+}

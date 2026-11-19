@@ -1,0 +1,27 @@
+{
+    "name": "scripts",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "setup-electorate": "tsx src/setupElectorate.ts",
+        "deploy": "tsx src/deploy.ts",
+        "deploy-private": "tsx src/deployPrivate.ts",
+        "demo-cast": "tsx src/demoCast.ts",
+        "demo-cast-private": "tsx src/demoCastPrivate.ts",
+        "tally": "tsx src/tallyEncrypted.ts",
+        "reveal": "tsx src/revealCommitments.ts",
+        "test": "tsx --test test/repeat_reconciliation.test.ts",
+        "typecheck": "tsc -p tsconfig.json --noEmit"
+    },
+    "dependencies": {
+        "circomlibjs": "^0.1.7",
+        "ethers": "^6.9.0",
+        "snarkjs": "^0.7.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "tsx": "^4.7.0",
+        "typescript": "^5.3.0"
+    }
+}
